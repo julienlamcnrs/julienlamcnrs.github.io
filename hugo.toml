@@ -2,3 +2,82 @@ baseURL = 'https://julienlamcnrs.github.io/'
 locale = 'en-us'
 titlle= 'My New Hugo Project'
 theme = "LoveIt"
+
+# ============================================================
+# BLOCS À REMPLACER DANS TON hugo.toml (copié depuis exampleSite)
+# Cherche chaque en-tête [ ... ] dans ton fichier, supprime le bloc
+# existant (jusqu'au prochain en-tête) et colle celui-ci à la place.
+# ============================================================
+
+# --- 1) Tout en haut du fichier (valeurs de premier niveau) ---
+defaultContentLanguage = "en"
+# (supprime la ligne themesDir si elle existe encore)
+
+# --- 2) Langue : titre du site ---
+[languages.en]
+  weight = 1
+  title = "Julien Lam's homepage"
+  languageCode = "en"
+  languageName = "English"
+  hasCJKLanguage = false
+
+# --- 3) Menu (remplace TOUT le menu de la langue en) ---
+[languages.en.menu]
+  [[languages.en.menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+    weight = 1
+  [[languages.en.menu.main]]
+    identifier = "people"
+    name = "People"
+    url = "/people/"
+    weight = 2
+  [[languages.en.menu.main]]
+    identifier = "conferences"
+    name = "Conferences"
+    url = "/conferences/"
+    weight = 3
+  [[languages.en.menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "https://drive.google.com/file/d/1SGtyz0dmO8ujEaCr81rFzhJOwxd1pwRn/view?usp=drive_link"
+    weight = 4
+  [[languages.en.menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "mailto:julien.lam(at)cnrs.fr"
+    weight = 5
+
+# --- 4) Description / titre dans l'en-tête ---
+[languages.en.params]
+  description = "Julien Lam, permanent CNRS researcher at UMET (Lille)"
+  keywords = ["nucleation", "crystallization", "machine learning", "molecular simulation"]
+
+  [languages.en.params.header.title]
+    name = "Julien Lam's homepage"
+
+# --- 5) Page d'accueil : profil ---
+  [languages.en.params.home]
+    rss = 10
+    [languages.en.params.home.profile]
+      enable = true
+      gravatarEmail = ""
+      avatarURL = "https://julienlamblog.wordpress.com/wp-content/uploads/2020/11/received_134163431494541.jpeg"
+      title = "Julien Lam"
+      subtitle = "Permanent CNRS researcher"
+      typeit = false
+      social = true
+      disclaimer = "<p style='text-align:left'>Welcome! I am Julien Lam, a permanent CNRS Researcher at the Unité Matériaux et Transformations (UMET) in Lille. Building on a research background spanning Lyon, Bristol, Brussels, and Toulouse, my current work focuses on the intersection of Materials Science, Artificial Intelligence, and Molecular Simulation. I specialize in developing machine-learning potentials and rare-event sampling techniques to unravel the complex mechanisms of nanocrystal nucleation. By combining atomistic modeling with AI, my goal for the future is to move toward the rational design of nanomaterials, providing a predictive framework that bridges the gap between fundamental theory and experimental synthesis.</p><p style='text-align:left'><b>Research interests:</b><br>Nucleation, Crystallization, Machine-learning interaction potentials, Free energy sampling, Nanoparticle synthesis</p>"
+
+# --- 6) Page d'accueil : liste des news (= le « Newsfeed ») ---
+    [languages.en.params.home.posts]
+      enable = true
+      paginate = 50
+
+# --- 7) Liens sociaux (remplace TOUT le bloc social) ---
+  [languages.en.params.social]
+    Orcid = "0000-0003-0343-6005"
+    Googlescholar = "ojOMsZIAAAAJ"
+    Researchgate = "Julien_Lam"
+    Twitter = "julienlam_"
