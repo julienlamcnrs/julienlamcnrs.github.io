@@ -1,0 +1,4 @@
+baseURL = 'https://julienlamcnrs.github.io/'
+locale = 'en-us'
+titlle= 'My New Hugo Project'
+theme = "LoveIt"
