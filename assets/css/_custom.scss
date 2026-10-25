@@ -1,0 +1,38 @@
+// ===== Personnalisation du thème LoveIt =====
+
+// 1) Masquer la ligne « auteur / published on date » (accueil et pages)
+.post-meta,
+.post-author,
+.post-publish {
+  display: none !important;
+}
+
+// 2) Supprimer le bouton clair/sombre (ordinateur et mobile)
+.theme-switch {
+  display: none !important;
+}
+
+// 3) Centrer les images placées dans les paragraphes
+.page .content p img,
+.page .content figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+// 4) Page People : tableaux sans en-tête vide, photos de taille fixe
+.page .content table thead {
+  display: none;
+}
+.page .content table td img {
+  width: 90px;
+  max-width: 90px;
+  height: auto;
+  margin: 0;
+}
+.page .content table td:first-child {
+  width: 110px;
+  text-align: center;
+  vertical-align: middle;
+}
