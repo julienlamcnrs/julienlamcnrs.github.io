@@ -36,3 +36,44 @@
   text-align: center;
   vertical-align: middle;
 }
+
+// 5) Images « à la une » des news : taille limitée et centrées
+//    (aperçu sur l'accueil)
+.summary .featured-image-preview {
+  width: 100%;
+  height: auto !important;
+  padding: 0 !important;
+  margin: 0 0 1rem 0;
+  text-align: center;
+  overflow: visible;
+
+  a {
+    display: inline-block;
+    position: static !important;
+  }
+  img {
+    position: static !important;
+    display: block;
+    width: auto !important;
+    height: auto !important;
+    max-width: 100%;
+    max-height: 260px;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+}
+
+//    (en haut de la page d'une news)
+.single .featured-image {
+  text-align: center;
+
+  img {
+    display: block;
+    width: auto !important;
+    height: auto !important;
+    max-width: 100%;
+    max-height: 400px;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+}
