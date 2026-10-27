@@ -5,9 +5,6 @@ toc:
   enable: false
 ---
 
-![](https://julienlamblog.wordpress.com/wp-content/uploads/2026/07/untitled.jpeg?w=1024)
-
-![](https://julienlamblog.wordpress.com/wp-content/uploads/2026/06/screenshot_20260617_111127-1.png?w=1024)
 
 # Current group members
 
@@ -18,6 +15,8 @@ toc:
 {{< member name="Roberto Tabacco" role="PhD student" years="2024–" img="/images/2024/03/roberto.png" topic="Nucleation in dilute systems using rare-event sampling" >}}
 {{< member name="Lorena Chabeaud" role="PhD student" years="2023–" img="/images/2024/01/lorena.png" topic="Structural dynamics of nanoparticles in hydrogen" note="Co-supervised with <a href='https://www.icgm.fr/hazar-guesmi/'>Hazar Guesmi</a> (ICGM)" >}}
 {{< /people >}}
+
+![](https://julienlamblog.wordpress.com/wp-content/uploads/2026/07/untitled.jpeg?w=1024)
 
 # Past students
 
