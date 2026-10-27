@@ -1,0 +1,660 @@
+[
+  {
+    "key": "vsubmitted1",
+    "title": "Predicting adsorption properties in nanoparticles with sparse linear regression",
+    "authors": [
+      "V. Sanguinetti, L. Chabeaud, J. Nagerl, M. Prévot, J. Lam"
+    ],
+    "authors_text": "V. Sanguinetti, L. Chabeaud, J. Nagerl, M. Prévot, J. Lam",
+    "year": "2026",
+    "journal": "",
+    "note": "Submitted",
+    "doi": "",
+    "url": "",
+    "status": "Submitted",
+    "bibtex": "@unpublished{vsubmitted1,\n  note = {Submitted},\n  year = {2026},\n  title = {Predicting adsorption properties in nanoparticles with sparse linear regression},\n  author = {V. Sanguinetti, L. Chabeaud, J. Nagerl, M. Prévot, J. Lam}\n}",
+    "search": "predicting adsorption properties in nanoparticles with sparse linear regression v. sanguinetti, l. chabeaud, j. nagerl, m. prévot, j. lam 2026 submitted  "
+  },
+  {
+    "key": "csubmitted4",
+    "title": "“Bonding adaptability and transformation plasticity in Ti--Al--Si--N alloys”",
+    "authors": [
+      "C. R. Salazar, S. Ghosh, F. Tasnádi, L. J. S. Johnson, J. Lam, J. Furstoss, I. A. Abrikosov",
+      "D. G. Sangiovanni"
+    ],
+    "authors_text": "C. R. Salazar, S. Ghosh, F. Tasnádi, L. J. S. Johnson, J. Lam, J. Furstoss, I. A. Abrikosov, D. G. Sangiovanni",
+    "year": "2026",
+    "journal": "",
+    "note": "Submitted",
+    "doi": "",
+    "url": "",
+    "status": "Submitted",
+    "bibtex": "@unpublished{csubmitted4,\n  note = {Submitted},\n  year = {2026},\n  title = {“Bonding adaptability and transformation plasticity in Ti--Al--Si--N alloys”},\n  author = {C. R. Salazar, S. Ghosh, F. Tasnádi, L. J. S. Johnson, J. Lam, J. Furstoss, I. A. Abrikosov and D. G. Sangiovanni}\n}",
+    "search": "“bonding adaptability and transformation plasticity in ti--al--si--n alloys” c. r. salazar, s. ghosh, f. tasnádi, l. j. s. johnson, j. lam, j. furstoss, i. a. abrikosov and d. g. sangiovanni 2026 submitted  "
+  },
+  {
+    "key": "rsubmitted5",
+    "title": "“Melting mechanisms in core@shell nanoparticles: a molecular dynamics study”",
+    "authors": [
+      "R. Tabacco, J. Furstoss,",
+      "J. Lam"
+    ],
+    "authors_text": "R. Tabacco, J. Furstoss,, J. Lam",
+    "year": "2026",
+    "journal": "",
+    "note": "Submitted",
+    "doi": "",
+    "url": "",
+    "status": "Submitted",
+    "bibtex": "@unpublished{rsubmitted5,\n  note = {Submitted},\n  year = {2026},\n  title = {“Melting mechanisms in core@shell nanoparticles: a molecular dynamics study”},\n  author = {R. Tabacco, J. Furstoss, and J. Lam}\n}",
+    "search": "“melting mechanisms in core@shell nanoparticles: a molecular dynamics study” r. tabacco, j. furstoss, and j. lam 2026 submitted  "
+  },
+  {
+    "key": "asubmitted6",
+    "title": "“Laser-Ablation Synthesis of Colloidal Metastable Nanoruby Stabilized by MEEAA Ligands”",
+    "authors": [
+      "A. Chemin, G. Laurens, J. Lam, A. Corne, C. Martinet, C. Dujardin, G. Ledoux, K. Lebbou, F. Chaput, B. Gokce, S. Barcikowski, T. Albaret,",
+      "D. Amans"
+    ],
+    "authors_text": "A. Chemin, G. Laurens, J. Lam, A. Corne, C. Martinet, C. Dujardin, G. Ledoux, K. Lebbou, F. Chaput, B. Gokce, S. Barcikowski, T. Albaret,, D. Amans",
+    "year": "2026",
+    "journal": "",
+    "note": "Submitted",
+    "doi": "",
+    "url": "",
+    "status": "Submitted",
+    "bibtex": "@unpublished{asubmitted6,\n  note = {Submitted},\n  year = {2026},\n  title = {“Laser-Ablation Synthesis of Colloidal Metastable Nanoruby Stabilized by MEEAA Ligands”},\n  author = {A. Chemin, G. Laurens, J. Lam, A. Corne, C. Martinet, C. Dujardin, G. Ledoux, K. Lebbou, F. Chaput, B. Gokce, S. Barcikowski, T. Albaret, and D. Amans}\n}",
+    "search": "“laser-ablation synthesis of colloidal metastable nanoruby stabilized by meeaa ligands” a. chemin, g. laurens, j. lam, a. corne, c. martinet, c. dujardin, g. ledoux, k. lebbou, f. chaput, b. gokce, s. barcikowski, t. albaret, and d. amans 2026 submitted  "
+  },
+  {
+    "key": "j20262",
+    "title": "Benchmarking machine-learning interatomic potentials using classical force fields",
+    "authors": [
+      "J. Sandberg, G. Dusson,",
+      "J. Lam"
+    ],
+    "authors_text": "J. Sandberg, G. Dusson,, J. Lam",
+    "year": "2026",
+    "journal": "",
+    "note": "Submitted",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2610.14239",
+    "status": "Submitted",
+    "bibtex": "@unpublished{j20262,\n  note = {Submitted},\n  url = {https://arxiv.org/abs/2610.14239},\n  year = {2026},\n  title = {Benchmarking machine-learning interatomic potentials using classical force fields},\n  author = {J. Sandberg, G. Dusson, and J. Lam}\n}",
+    "search": "benchmarking machine-learning interatomic potentials using classical force fields j. sandberg, g. dusson, and j. lam 2026 submitted  "
+  },
+  {
+    "key": "c20263",
+    "title": "Deciphering borophene growth pathways with data-driven simulations",
+    "authors": [
+      "C. Bousige, J. Furstoss, J. Lam",
+      "P. Mignon"
+    ],
+    "authors_text": "C. Bousige, J. Furstoss, J. Lam, P. Mignon",
+    "year": "2026",
+    "journal": "",
+    "note": "Submitted",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2606.03886",
+    "status": "Submitted",
+    "bibtex": "@unpublished{c20263,\n  note = {Submitted},\n  url = {https://arxiv.org/abs/2606.03886},\n  year = {2026},\n  title = {Deciphering borophene growth pathways with data-driven simulations},\n  author = {C. Bousige, J. Furstoss, J. Lam and P. Mignon}\n}",
+    "search": "deciphering borophene growth pathways with data-driven simulations c. bousige, j. furstoss, j. lam and p. mignon 2026 submitted  "
+  },
+  {
+    "key": "l20267",
+    "title": "Hydrogen‑Directed Au--H--Au Chain Networks Redefine the Active Structure of Sub‑2 nm Gold Nanoparticles",
+    "authors": [
+      "L. Chabeaud, N. F. Barrera, J. Contreras-García, J. Lam",
+      "H. Guesmi"
+    ],
+    "authors_text": "L. Chabeaud, N. F. Barrera, J. Contreras-García, J. Lam, H. Guesmi",
+    "year": "2026",
+    "journal": "",
+    "note": "Nanoscale 18 14280 (2026)",
+    "doi": "10.1039/d6nr01396a",
+    "url": "https://doi.org/10.1039/d6nr01396a",
+    "status": "",
+    "bibtex": "@article{l20267,\n  url = {https://doi.org/10.1039/d6nr01396a},\n  doi = {10.1039/d6nr01396a},\n  note = {Nanoscale 18 14280 (2026)},\n  year = {2026},\n  title = {Hydrogen‑Directed Au--H--Au Chain Networks Redefine the Active Structure of Sub‑2 nm Gold Nanoparticles},\n  author = {L. Chabeaud, N. F. Barrera, J. Contreras-García, J. Lam and H. Guesmi}\n}",
+    "search": "hydrogen‑directed au--h--au chain networks redefine the active structure of sub‑2 nm gold nanoparticles l. chabeaud, n. f. barrera, j. contreras-garcía, j. lam and h. guesmi 2026 nanoscale 18 14280 (2026)  10.1039/d6nr01396a"
+  },
+  {
+    "key": "q20268",
+    "title": "“Growth driven phase transitions in Zinc Oxide nanoparticles through machine-learning assisted simulations”",
+    "authors": [
+      "Q. Gromoff, M. Benoit, J. Goniakowski, C. R. Salazar, J. Lam"
+    ],
+    "authors_text": "Q. Gromoff, M. Benoit, J. Goniakowski, C. R. Salazar, J. Lam",
+    "year": "2026",
+    "journal": "",
+    "note": "Nanoscale, 18, 12903 (2026)",
+    "doi": "10.1039/d5nr04147c",
+    "url": "https://doi.org/10.1039/d5nr04147c",
+    "status": "",
+    "bibtex": "@article{q20268,\n  url = {https://doi.org/10.1039/d5nr04147c},\n  doi = {10.1039/d5nr04147c},\n  note = {Nanoscale, 18, 12903 (2026)},\n  year = {2026},\n  title = {“Growth driven phase transitions in Zinc Oxide nanoparticles through machine-learning assisted simulations”},\n  author = {Q. Gromoff, M. Benoit, J. Goniakowski, C. R. Salazar, J. Lam}\n}",
+    "search": "“growth driven phase transitions in zinc oxide nanoparticles through machine-learning assisted simulations” q. gromoff, m. benoit, j. goniakowski, c. r. salazar, j. lam 2026 nanoscale, 18, 12903 (2026)  10.1039/d5nr04147c"
+  },
+  {
+    "key": "y20269",
+    "title": "“Non-classical nucleation pathways in liquid condensation revealed by simulation and theory”",
+    "authors": [
+      "Y. Wu, T. Philippe, A. Graini, J. Lam"
+    ],
+    "authors_text": "Y. Wu, T. Philippe, A. Graini, J. Lam",
+    "year": "2026",
+    "journal": "",
+    "note": "Phys. Rev. Lett. 136, 017101 (2026)",
+    "doi": "10.1103/n3b1-tgjv",
+    "url": "https://doi.org/10.1103/n3b1-tgjv",
+    "status": "",
+    "bibtex": "@article{y20269,\n  url = {https://doi.org/10.1103/n3b1-tgjv},\n  doi = {10.1103/n3b1-tgjv},\n  note = {Phys. Rev. Lett. 136, 017101 (2026)},\n  year = {2026},\n  title = {“Non-classical nucleation pathways in liquid condensation revealed by simulation and theory”},\n  author = {Y. Wu, T. Philippe, A. Graini, J. Lam}\n}",
+    "search": "“non-classical nucleation pathways in liquid condensation revealed by simulation and theory” y. wu, t. philippe, a. graini, j. lam 2026 phys. rev. lett. 136, 017101 (2026)  10.1103/n3b1-tgjv"
+  },
+  {
+    "key": "j202510",
+    "title": "“All-around local structure classification with supervised learning: The example of crystal phases and dislocations in complex oxides”",
+    "authors": [
+      "J. Furstoss, C. R. Salazar, P. Carrez, P. Hirel",
+      "J. Lam"
+    ],
+    "authors_text": "J. Furstoss, C. R. Salazar, P. Carrez, P. Hirel, J. Lam",
+    "year": "2025",
+    "journal": "",
+    "note": "Comput. Phys. Commun 309 109480 (2025)",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/S001046552400403X?via%3Dihub",
+    "status": "",
+    "bibtex": "@article{j202510,\n  url = {https://www.sciencedirect.com/science/article/pii/S001046552400403X?via%3Dihub},\n  note = {Comput. Phys. Commun 309 109480 (2025)},\n  year = {2025},\n  title = {“All-around local structure classification with supervised learning: The example of crystal phases and dislocations in complex oxides”},\n  author = {J. Furstoss, C. R. Salazar, P. Carrez, P. Hirel and J. Lam}\n}",
+    "search": "“all-around local structure classification with supervised learning: the example of crystal phases and dislocations in complex oxides” j. furstoss, c. r. salazar, p. carrez, p. hirel and j. lam 2025 comput. phys. commun 309 109480 (2025)  "
+  },
+  {
+    "key": "c202411",
+    "title": "“Competing nucleation pathways in nanocrystal formation”",
+    "authors": [
+      "C. Salazar, A. K. Ammothum Kandy, J. Furstoss, Q. Gromoff, J. Goniakowski,",
+      "J. Lam"
+    ],
+    "authors_text": "C. Salazar, A. K. Ammothum Kandy, J. Furstoss, Q. Gromoff, J. Goniakowski,, J. Lam",
+    "year": "2024",
+    "journal": "",
+    "note": "npj Comp. Mat. 10, 199 (2024)",
+    "doi": "10.1038/s41524-024-01371-x",
+    "url": "https://doi.org/10.1038/s41524-024-01371-x",
+    "status": "",
+    "bibtex": "@article{c202411,\n  url = {https://doi.org/10.1038/s41524-024-01371-x},\n  doi = {10.1038/s41524-024-01371-x},\n  note = {npj Comp. Mat. 10, 199 (2024)},\n  year = {2024},\n  title = {“Competing nucleation pathways in nanocrystal formation”},\n  author = {C. Salazar, A. K. Ammothum Kandy, J. Furstoss, Q. Gromoff, J. Goniakowski, and J. Lam}\n}",
+    "search": "“competing nucleation pathways in nanocrystal formation” c. salazar, a. k. ammothum kandy, j. furstoss, q. gromoff, j. goniakowski, and j. lam 2024 npj comp. mat. 10, 199 (2024)  10.1038/s41524-024-01371-x"
+  },
+  {
+    "key": "a202412",
+    "title": "“Harvesting nucleating structures in nanoparticle crystallization: The example of gold, silver and iron”",
+    "authors": [
+      "A. France-Lanord, S. Menon,",
+      "J. Lam"
+    ],
+    "authors_text": "A. France-Lanord, S. Menon,, J. Lam",
+    "year": "2024",
+    "journal": "",
+    "note": "J. Chem. Phys. 161, 044108 (2024)",
+    "doi": "10.1063/5.0200850",
+    "url": "https://doi.org/10.1063/5.0200850",
+    "status": "",
+    "bibtex": "@article{a202412,\n  url = {https://doi.org/10.1063/5.0200850},\n  doi = {10.1063/5.0200850},\n  note = {J. Chem. Phys. 161, 044108 (2024)},\n  year = {2024},\n  title = {“Harvesting nucleating structures in nanoparticle crystallization: The example of gold, silver and iron”},\n  author = {A. France-Lanord, S. Menon, and J. Lam}\n}",
+    "search": "“harvesting nucleating structures in nanoparticle crystallization: the example of gold, silver and iron” a. france-lanord, s. menon, and j. lam 2024 j. chem. phys. 161, 044108 (2024)  10.1063/5.0200850"
+  },
+  {
+    "key": "s202413",
+    "title": "“Elaboration of a neural-network interatomic potential for silica glass and melt”",
+    "authors": [
+      "S. Trillot, J. Lam, S. Ispas, A. K. Ammothum Kandy, M. E. Tuckerman, N. Tarrat, M. Benoit"
+    ],
+    "authors_text": "S. Trillot, J. Lam, S. Ispas, A. K. Ammothum Kandy, M. E. Tuckerman, N. Tarrat, M. Benoit",
+    "year": "2024",
+    "journal": "",
+    "note": "Comput. Mater. Sci. 236 112848 (2024)",
+    "doi": "10.1016/j.commatsci.2024.112848",
+    "url": "https://doi.org/10.1016/j.commatsci.2024.112848",
+    "status": "",
+    "bibtex": "@article{s202413,\n  url = {https://doi.org/10.1016/j.commatsci.2024.112848},\n  doi = {10.1016/j.commatsci.2024.112848},\n  note = {Comput. Mater. Sci. 236 112848 (2024)},\n  year = {2024},\n  title = {“Elaboration of a neural-network interatomic potential for silica glass and melt”},\n  author = {S. Trillot, J. Lam, S. Ispas, A. K. Ammothum Kandy, M. E. Tuckerman, N. Tarrat, M. Benoit}\n}",
+    "search": "“elaboration of a neural-network interatomic potential for silica glass and melt” s. trillot, j. lam, s. ispas, a. k. ammothum kandy, m. e. tuckerman, n. tarrat, m. benoit 2024 comput. mater. sci. 236 112848 (2024)  10.1016/j.commatsci.2024.112848"
+  },
+  {
+    "key": "q202414",
+    "title": "“Exploring the Formation of Gold/Silver Nanoalloys With Gas-Phase Synthesis and Machine-Learning Assisted Simulations”",
+    "authors": [
+      "Q. Gromoff, P. Benzo, W. A. Saidi, C. M. Andolina, M-J Casanove, T. Hungria, S. Barre, M. Benoit, J. Lam"
+    ],
+    "authors_text": "Q. Gromoff, P. Benzo, W. A. Saidi, C. M. Andolina, M-J Casanove, T. Hungria, S. Barre, M. Benoit, J. Lam",
+    "year": "2024",
+    "journal": "",
+    "note": "Nanoscale 16, 384 (2024)",
+    "doi": "10.1039/D3NR04471H",
+    "url": "https://doi.org/10.1039/D3NR04471H",
+    "status": "",
+    "bibtex": "@article{q202414,\n  url = {https://doi.org/10.1039/D3NR04471H},\n  doi = {10.1039/D3NR04471H},\n  note = {Nanoscale 16, 384 (2024)},\n  year = {2024},\n  title = {“Exploring the Formation of Gold/Silver Nanoalloys With Gas-Phase Synthesis and Machine-Learning Assisted Simulations”},\n  author = {Q. Gromoff, P. Benzo, W. A. Saidi, C. M. Andolina, M-J Casanove, T. Hungria, S. Barre, M. Benoit, J. Lam}\n}",
+    "search": "“exploring the formation of gold/silver nanoalloys with gas-phase synthesis and machine-learning assisted simulations” q. gromoff, p. benzo, w. a. saidi, c. m. andolina, m-j casanove, t. hungria, s. barre, m. benoit, j. lam 2024 nanoscale 16, 384 (2024)  10.1039/d3nr04471h"
+  },
+  {
+    "key": "k202315",
+    "title": "“Modeling and characterization of the nucleation and growth of carbon nanostructures in physical synthesis”",
+    "authors": [
+      "K. Rossi, G. D. Forster, C. Zeni, J. Lam"
+    ],
+    "authors_text": "K. Rossi, G. D. Forster, C. Zeni, J. Lam",
+    "year": "2023",
+    "journal": "",
+    "note": "Carbon trends 11, 100268 (2023)",
+    "doi": "10.1016/j.cartre.2023.100268",
+    "url": "https://doi.org/10.1016/j.cartre.2023.100268",
+    "status": "",
+    "bibtex": "@article{k202315,\n  url = {https://doi.org/10.1016/j.cartre.2023.100268},\n  doi = {10.1016/j.cartre.2023.100268},\n  note = {Carbon trends 11, 100268 (2023)},\n  year = {2023},\n  title = {“Modeling and characterization of the nucleation and growth of carbon nanostructures in physical synthesis”},\n  author = {K. Rossi, G. D. Forster, C. Zeni, J. Lam}\n}",
+    "search": "“modeling and characterization of the nucleation and growth of carbon nanostructures in physical synthesis” k. rossi, g. d. forster, c. zeni, j. lam 2023 carbon trends 11, 100268 (2023)  10.1016/j.cartre.2023.100268"
+  },
+  {
+    "key": "c202316",
+    "title": "“A comprehensive atomistic picture of the as-deposited Ni-Si interface before thermal silicidation process”",
+    "authors": [
+      "C. Jara Donoso, A. Jay, J. Lam, J. Muller, G. Larrieu, G. Landa, C. Bongiorno, A. La Magna, A. Alberti, A. Hémeryck"
+    ],
+    "authors_text": "C. Jara Donoso, A. Jay, J. Lam, J. Muller, G. Larrieu, G. Landa, C. Bongiorno, A. La Magna, A. Alberti, A. Hémeryck",
+    "year": "2023",
+    "journal": "",
+    "note": "Appl. Surf. Sci. 631 157563 (2023)",
+    "doi": "10.1016/j.apsusc.2023.157563",
+    "url": "https://doi.org/10.1016/j.apsusc.2023.157563",
+    "status": "",
+    "bibtex": "@article{c202316,\n  url = {https://doi.org/10.1016/j.apsusc.2023.157563},\n  doi = {10.1016/j.apsusc.2023.157563},\n  note = {Appl. Surf. Sci. 631 157563 (2023)},\n  year = {2023},\n  title = {“A comprehensive atomistic picture of the as-deposited Ni-Si interface before thermal silicidation process”},\n  author = {C. Jara Donoso, A. Jay, J. Lam, J. Muller, G. Larrieu, G. Landa, C. Bongiorno, A. La Magna, A. Alberti, A. Hémeryck}\n}",
+    "search": "“a comprehensive atomistic picture of the as-deposited ni-si interface before thermal silicidation process” c. jara donoso, a. jay, j. lam, j. muller, g. larrieu, g. landa, c. bongiorno, a. la magna, a. alberti, a. hémeryck 2023 appl. surf. sci. 631 157563 (2023)  10.1016/j.apsusc.2023.157563"
+  },
+  {
+    "key": "a202317",
+    "title": "“Comparing transferability in neural network approaches and linear models for machine-learning interaction potentials”",
+    "authors": [
+      "A. K. Ammothum Kandy, K. Rossi, A. Raulin-Foissac, G. Laurens, J. Lam"
+    ],
+    "authors_text": "A. K. Ammothum Kandy, K. Rossi, A. Raulin-Foissac, G. Laurens, J. Lam",
+    "year": "2023",
+    "journal": "",
+    "note": "Phys. Rev. B 107, 174106 (2023)",
+    "doi": "",
+    "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.174106",
+    "status": "",
+    "bibtex": "@article{a202317,\n  url = {https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.174106},\n  note = {Phys. Rev. B 107, 174106 (2023)},\n  year = {2023},\n  title = {“Comparing transferability in neural network approaches and linear models for machine-learning interaction potentials”},\n  author = {A. K. Ammothum Kandy, K. Rossi, A. Raulin-Foissac, G. Laurens, J. Lam}\n}",
+    "search": "“comparing transferability in neural network approaches and linear models for machine-learning interaction potentials” a. k. ammothum kandy, k. rossi, a. raulin-foissac, g. laurens, j. lam 2023 phys. rev. b 107, 174106 (2023)  "
+  },
+  {
+    "key": "j202318",
+    "title": "“Critical comparison of general-purpose collective variables for crystal nucleation”",
+    "authors": [
+      "J Lam, Fabio Pietrucci"
+    ],
+    "authors_text": "J Lam, Fabio Pietrucci",
+    "year": "2023",
+    "journal": "",
+    "note": "Phys. Rev. E 107, L012601 (2023)",
+    "doi": "",
+    "url": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.107.L012601",
+    "status": "",
+    "bibtex": "@article{j202318,\n  url = {https://journals.aps.org/pre/abstract/10.1103/PhysRevE.107.L012601},\n  note = {Phys. Rev. E 107, L012601 (2023)},\n  year = {2023},\n  title = {“Critical comparison of general-purpose collective variables for crystal nucleation”},\n  author = {J Lam, Fabio Pietrucci}\n}",
+    "search": "“critical comparison of general-purpose collective variables for crystal nucleation” j lam, fabio pietrucci 2023 phys. rev. e 107, l012601 (2023)  "
+  },
+  {
+    "key": "j202219",
+    "title": "“Non-classical nucleation of zinc oxide from a physically-motivated machine-learning approach”",
+    "authors": [
+      "J. Goniakowski, S. Menon, G. Laurens, J. Lam"
+    ],
+    "authors_text": "J. Goniakowski, S. Menon, G. Laurens, J. Lam",
+    "year": "2022",
+    "journal": "",
+    "note": "J. Phys. Chem. C 40, 17456 (2022)",
+    "doi": "10.1021/acs.jpcc.2c06341",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jpcc.2c06341",
+    "status": "",
+    "bibtex": "@article{j202219,\n  url = {https://pubs.acs.org/doi/10.1021/acs.jpcc.2c06341},\n  doi = {10.1021/acs.jpcc.2c06341},\n  note = {J. Phys. Chem. C 40, 17456 (2022)},\n  year = {2022},\n  title = {“Non-classical nucleation of zinc oxide from a physically-motivated machine-learning approach”},\n  author = {J. Goniakowski, S. Menon, G. Laurens, J. Lam}\n}",
+    "search": "“non-classical nucleation of zinc oxide from a physically-motivated machine-learning approach” j. goniakowski, s. menon, g. laurens, j. lam 2022 j. phys. chem. c 40, 17456 (2022)  10.1021/acs.jpcc.2c06341"
+  },
+  {
+    "key": "g202220",
+    "title": "“Potentials based on linear models”",
+    "authors": [
+      "G. Tallec, G. Laurens, O. Fresse-Colson J. Lam"
+    ],
+    "authors_text": "G. Tallec, G. Laurens, O. Fresse-Colson J. Lam",
+    "year": "2022",
+    "journal": "",
+    "note": "“Quantum Chemistry in the Age of Machine Learning” edited by Elsevier (2022)",
+    "doi": "",
+    "url": "https://www.sciencedirect.com/science/article/pii/B9780323900492000214",
+    "status": "",
+    "bibtex": "@article{g202220,\n  url = {https://www.sciencedirect.com/science/article/pii/B9780323900492000214},\n  note = {“Quantum Chemistry in the Age of Machine Learning” edited by Elsevier (2022)},\n  year = {2022},\n  title = {“Potentials based on linear models”},\n  author = {G. Tallec, G. Laurens, O. Fresse-Colson J. Lam}\n}",
+    "search": "“potentials based on linear models” g. tallec, g. laurens, o. fresse-colson j. lam 2022 “quantum chemistry in the age of machine learning” edited by elsevier (2022)  "
+  },
+  {
+    "key": "j202121",
+    "title": "“Strong and fast rising pressure waves emitted by plasmonic vapor nanobubbles”",
+    "authors": [
+      "J. Lombard, J. Lam, F. Detcheverry, T. Biben, S. Merabia"
+    ],
+    "authors_text": "J. Lombard, J. Lam, F. Detcheverry, T. Biben, S. Merabia",
+    "year": "2021",
+    "journal": "",
+    "note": "Phys. Rev. Research 3, 023231 (2021)",
+    "doi": "10.1103/PhysRevResearch.3.023231",
+    "url": "https://doi.org/10.1103/PhysRevResearch.3.023231",
+    "status": "",
+    "bibtex": "@article{j202121,\n  url = {https://doi.org/10.1103/PhysRevResearch.3.023231},\n  doi = {10.1103/PhysRevResearch.3.023231},\n  note = {Phys. Rev. Research 3, 023231 (2021)},\n  year = {2021},\n  title = {“Strong and fast rising pressure waves emitted by plasmonic vapor nanobubbles”},\n  author = {J. Lombard, J. Lam, F. Detcheverry, T. Biben, S. Merabia}\n}",
+    "search": "“strong and fast rising pressure waves emitted by plasmonic vapor nanobubbles” j. lombard, j. lam, f. detcheverry, t. biben, s. merabia 2021 phys. rev. research 3, 023231 (2021)  10.1103/physrevresearch.3.023231"
+  },
+  {
+    "key": "g202122",
+    "title": "“Infrared spectra of neutral polycyclic aromatic hydrocarbons by machine learning”",
+    "authors": [
+      "G. Laurens, M. Rabary, J. Lam, D. Pelaez, A-R Allouche"
+    ],
+    "authors_text": "G. Laurens, M. Rabary, J. Lam, D. Pelaez, A-R Allouche",
+    "year": "2021",
+    "journal": "",
+    "note": "Theor. Chem. Acc. 140, 66 (2021)",
+    "doi": "",
+    "url": "https://link.springer.com/article/10.1007/s00214-021-02773-6",
+    "status": "",
+    "bibtex": "@article{g202122,\n  url = {https://link.springer.com/article/10.1007/s00214-021-02773-6},\n  note = {Theor. Chem. Acc. 140, 66 (2021)},\n  year = {2021},\n  title = {“Infrared spectra of neutral polycyclic aromatic hydrocarbons by machine learning”},\n  author = {G. Laurens, M. Rabary, J. Lam, D. Pelaez, A-R Allouche}\n}",
+    "search": "“infrared spectra of neutral polycyclic aromatic hydrocarbons by machine learning” g. laurens, m. rabary, j. lam, d. pelaez, a-r allouche 2021 theor. chem. acc. 140, 66 (2021)  "
+  },
+  {
+    "key": "p202123",
+    "title": "“Impurity-induced Nematic-Isotropic Transition of Liquid Crystals”",
+    "authors": [
+      "P. K. Jana, J. Lam, R. Mangal, M. J Alava, N. Parveen, L. Laurson"
+    ],
+    "authors_text": "P. K. Jana, J. Lam, R. Mangal, M. J Alava, N. Parveen, L. Laurson",
+    "year": "2021",
+    "journal": "",
+    "note": "Phys. Chem. Chem. Phys. 23, 8825 (2021)",
+    "doi": "",
+    "url": "https://pubs.rsc.org/en/content/articlelanding/2021/cp/d0cp06577c/unauth#!divAbstract",
+    "status": "",
+    "bibtex": "@article{p202123,\n  url = {https://pubs.rsc.org/en/content/articlelanding/2021/cp/d0cp06577c/unauth#!divAbstract},\n  note = {Phys. Chem. Chem. Phys. 23, 8825 (2021)},\n  year = {2021},\n  title = {“Impurity-induced Nematic-Isotropic Transition of Liquid Crystals”},\n  author = {P. K. Jana, J. Lam, R. Mangal, M. J Alava, N. Parveen, L. Laurson}\n}",
+    "search": "“impurity-induced nematic-isotropic transition of liquid crystals” p. k. jana, j. lam, r. mangal, m. j alava, n. parveen, l. laurson 2021 phys. chem. chem. phys. 23, 8825 (2021)  "
+  },
+  {
+    "key": "m202124",
+    "title": "“Measuring transferability issues in machine-learning force fields: The example of Gold-Iron interactions with linearized potentials”",
+    "authors": [
+      "M. Benoit, J. Amodeo, S. Combettes, A. Roux, I. Khaled, J. Lam"
+    ],
+    "authors_text": "M. Benoit, J. Amodeo, S. Combettes, A. Roux, I. Khaled, J. Lam",
+    "year": "2021",
+    "journal": "",
+    "note": "Mach. Learn.: Sci. Technol. 2 025003 (2021)",
+    "doi": "",
+    "url": "https://iopscience.iop.org/article/10.1088/2632-2153/abc9fd",
+    "status": "",
+    "bibtex": "@article{m202124,\n  url = {https://iopscience.iop.org/article/10.1088/2632-2153/abc9fd},\n  note = {Mach. Learn.: Sci. Technol. 2 025003 (2021)},\n  year = {2021},\n  title = {“Measuring transferability issues in machine-learning force fields: The example of Gold-Iron interactions with linearized potentials”},\n  author = {M. Benoit, J. Amodeo, S. Combettes, A. Roux, I. Khaled, J. Lam}\n}",
+    "search": "“measuring transferability issues in machine-learning force fields: the example of gold-iron interactions with linearized potentials” m. benoit, j. amodeo, s. combettes, a. roux, i. khaled, j. lam 2021 mach. learn.: sci. technol. 2 025003 (2021)  "
+  },
+  {
+    "key": "j202025",
+    "title": "“Out of equilibrium polymorph selection in nanoparticle freezing”",
+    "authors": [
+      "J. Amodeo, F. Pietrucci, J. Lam"
+    ],
+    "authors_text": "J. Amodeo, F. Pietrucci, J. Lam",
+    "year": "2020",
+    "journal": "",
+    "note": "J. Phys. Chem. Lett. 11, 8060 (2020)",
+    "doi": "10.1021/acs.jpclett.0c02129",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jpclett.0c02129",
+    "status": "",
+    "bibtex": "@article{j202025,\n  url = {https://pubs.acs.org/doi/10.1021/acs.jpclett.0c02129},\n  doi = {10.1021/acs.jpclett.0c02129},\n  note = {J. Phys. Chem. Lett. 11, 8060 (2020)},\n  year = {2020},\n  title = {“Out of equilibrium polymorph selection in nanoparticle freezing”},\n  author = {J. Amodeo, F. Pietrucci, J. Lam}\n}",
+    "search": "“out of equilibrium polymorph selection in nanoparticle freezing” j. amodeo, f. pietrucci, j. lam 2020 j. phys. chem. lett. 11, 8060 (2020)  10.1021/acs.jpclett.0c02129"
+  },
+  {
+    "key": "s202026",
+    "title": "“How interface properties control the equilibrium shape of core-shell Fe-Au and Fe-Ag nanoparticles?”",
+    "authors": [
+      "S. Combettes, J. Lam, P. Benzo, A. Ponchet, M-J. Casanove, F. Calvo, M. Benoit"
+    ],
+    "authors_text": "S. Combettes, J. Lam, P. Benzo, A. Ponchet, M-J. Casanove, F. Calvo, M. Benoit",
+    "year": "2020",
+    "journal": "",
+    "note": "Nanoscale 12, 18079 (2020)",
+    "doi": "",
+    "url": "https://pubs.rsc.org/en/Content/ArticleLanding/2020/NR/D0NR04425C#!divAbstract",
+    "status": "",
+    "bibtex": "@article{s202026,\n  url = {https://pubs.rsc.org/en/Content/ArticleLanding/2020/NR/D0NR04425C#!divAbstract},\n  note = {Nanoscale 12, 18079 (2020)},\n  year = {2020},\n  title = {“How interface properties control the equilibrium shape of core-shell Fe-Au and Fe-Ag nanoparticles?”},\n  author = {S. Combettes, J. Lam, P. Benzo, A. Ponchet, M-J. Casanove, F. Calvo, M. Benoit}\n}",
+    "search": "“how interface properties control the equilibrium shape of core-shell fe-au and fe-ag nanoparticles?” s. combettes, j. lam, p. benzo, a. ponchet, m-j. casanove, f. calvo, m. benoit 2020 nanoscale 12, 18079 (2020)  "
+  },
+  {
+    "key": "j202027",
+    "title": "“Long-wavelength density fluctuations as nucleation precursors”",
+    "authors": [
+      "J. F. Lutsko",
+      "J. Lam"
+    ],
+    "authors_text": "J. F. Lutsko, J. Lam",
+    "year": "2020",
+    "journal": "",
+    "note": "Phys. Rev. E 101, 052122 (2020)",
+    "doi": "",
+    "url": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.101.052122",
+    "status": "",
+    "bibtex": "@article{j202027,\n  url = {https://journals.aps.org/pre/abstract/10.1103/PhysRevE.101.052122},\n  note = {Phys. Rev. E 101, 052122 (2020)},\n  year = {2020},\n  title = {“Long-wavelength density fluctuations as nucleation precursors”},\n  author = {J. F. Lutsko and J. Lam}\n}",
+    "search": "“long-wavelength density fluctuations as nucleation precursors” j. f. lutsko and j. lam 2020 phys. rev. e 101, 052122 (2020)  "
+  },
+  {
+    "key": "j202028",
+    "title": "“Combining quantum mechanics and machine-learning calculations for anharmonic corrections to vibrational frequencies”",
+    "authors": [
+      "J. Lam, Saleh Abdul-Al, A-R Allouche"
+    ],
+    "authors_text": "J. Lam, Saleh Abdul-Al, A-R Allouche",
+    "year": "2020",
+    "journal": "",
+    "note": "J. Chem. Theory Comput. 13,3 (2020)",
+    "doi": "10.1021/acs.jctc.9b00964",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jctc.9b00964",
+    "status": "",
+    "bibtex": "@article{j202028,\n  url = {https://pubs.acs.org/doi/10.1021/acs.jctc.9b00964},\n  doi = {10.1021/acs.jctc.9b00964},\n  note = {J. Chem. Theory Comput. 13,3 (2020)},\n  year = {2020},\n  title = {“Combining quantum mechanics and machine-learning calculations for anharmonic corrections to vibrational frequencies”},\n  author = {J. Lam, Saleh Abdul-Al, A-R Allouche}\n}",
+    "search": "“combining quantum mechanics and machine-learning calculations for anharmonic corrections to vibrational frequencies” j. lam, saleh abdul-al, a-r allouche 2020 j. chem. theory comput. 13,3 (2020)  10.1021/acs.jctc.9b00964"
+  },
+  {
+    "key": "g202029",
+    "title": "“Comparison of aluminum oxide empirical potentials from cluster to nanoparticle”",
+    "authors": [
+      "G. Laurens, D. Amans, J. Lam, A-R Allouche"
+    ],
+    "authors_text": "G. Laurens, D. Amans, J. Lam, A-R Allouche",
+    "year": "2020",
+    "journal": "",
+    "note": "Phys. Rev. B 101, 045427 (2020)",
+    "doi": "",
+    "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.101.045427",
+    "status": "",
+    "bibtex": "@article{g202029,\n  url = {https://journals.aps.org/prb/abstract/10.1103/PhysRevB.101.045427},\n  note = {Phys. Rev. B 101, 045427 (2020)},\n  year = {2020},\n  title = {“Comparison of aluminum oxide empirical potentials from cluster to nanoparticle”},\n  author = {G. Laurens, D. Amans, J. Lam, A-R Allouche}\n}",
+    "search": "“comparison of aluminum oxide empirical potentials from cluster to nanoparticle” g. laurens, d. amans, j. lam, a-r allouche 2020 phys. rev. b 101, 045427 (2020)  "
+  },
+  {
+    "key": "g201930",
+    "title": "“Alloy, Janus and core-shell nanoparticles: Numerical modeling of their nucleation and growth in physical synthesis” [Selected as 2019 PCCP HOT Articles]",
+    "authors": [
+      "G. D. Förster, Magali Benoit, J. Lam"
+    ],
+    "authors_text": "G. D. Förster, Magali Benoit, J. Lam",
+    "year": "2019",
+    "journal": "",
+    "note": "[Selected as 2019 PCCP HOT Articles",
+    "doi": "",
+    "url": "https://pubs.rsc.org/en/journals/articlecollectionlanding?sercode=cp&themeid=82edaade-4192-47df-9db1-8043135f9b70",
+    "status": "",
+    "bibtex": "@article{g201930,\n  url = {https://pubs.rsc.org/en/journals/articlecollectionlanding?sercode=cp&themeid=82edaade-4192-47df-9db1-8043135f9b70},\n  note = {[Selected as 2019 PCCP HOT Articles},\n  year = {2019},\n  title = {“Alloy, Janus and core-shell nanoparticles: Numerical modeling of their nucleation and growth in physical synthesis” [Selected as 2019 PCCP HOT Articles]},\n  author = {G. D. Förster, Magali Benoit, J. Lam}\n}",
+    "search": "“alloy, janus and core-shell nanoparticles: numerical modeling of their nucleation and growth in physical synthesis” [selected as 2019 pccp hot articles] g. d. förster, magali benoit, j. lam 2019 [selected as 2019 pccp hot articles  "
+  },
+  {
+    "key": "a201931",
+    "title": "“Doping nanoparticles using pulsed laser ablation in a liquid containing the doping agent”",
+    "authors": [
+      "A. Chemin, J. Lam, G. Laurens, F. Trichard, V. Motto-Ros, G. Ledoux, V. Jarý, V. Laguta, M. Nikl, C. Dujardin",
+      "D. Amans\\textbackslash"
+    ],
+    "authors_text": "A. Chemin, J. Lam, G. Laurens, F. Trichard, V. Motto-Ros, G. Ledoux, V. Jarý, V. Laguta, M. Nikl, C. Dujardin, D. Amans\\textbackslash",
+    "year": "2019",
+    "journal": "",
+    "note": "Nanoscale Adv. 1, 3963 (2019)",
+    "doi": "",
+    "url": "https://pubs.rsc.org/en/content/articlelanding/2019/na/c9na00223e",
+    "status": "",
+    "bibtex": "@article{a201931,\n  url = {https://pubs.rsc.org/en/content/articlelanding/2019/na/c9na00223e},\n  note = {Nanoscale Adv. 1, 3963 (2019)},\n  year = {2019},\n  title = {“Doping nanoparticles using pulsed laser ablation in a liquid containing the doping agent”},\n  author = {A. Chemin, J. Lam, G. Laurens, F. Trichard, V. Motto-Ros, G. Ledoux, V. Jarý, V. Laguta, M. Nikl, C. Dujardin and D. Amans\\textbackslash}\n}",
+    "search": "“doping nanoparticles using pulsed laser ablation in a liquid containing the doping agent” a. chemin, j. lam, g. laurens, f. trichard, v. motto-ros, g. ledoux, v. jarý, v. laguta, m. nikl, c. dujardin and d. amans\\textbackslash 2019 nanoscale adv. 1, 3963 (2019)  "
+  },
+  {
+    "key": "j201832",
+    "title": "“Solvent-mediated interactions between nanostructures: from water to Lennard-Jones liquid”",
+    "authors": [
+      "J. Lam",
+      "J. F. Lutsko"
+    ],
+    "authors_text": "J. Lam, J. F. Lutsko",
+    "year": "2018",
+    "journal": "",
+    "note": "J. Chem. Phys. 149, 134703 (2018)",
+    "doi": "10.1063/1.5037571",
+    "url": "https://aip.scitation.org/doi/10.1063/1.5037571",
+    "status": "",
+    "bibtex": "@article{j201832,\n  url = {https://aip.scitation.org/doi/10.1063/1.5037571},\n  doi = {10.1063/1.5037571},\n  note = {J. Chem. Phys. 149, 134703 (2018)},\n  year = {2018},\n  title = {“Solvent-mediated interactions between nanostructures: from water to Lennard-Jones liquid”},\n  author = {J. Lam and J. F. Lutsko}\n}",
+    "search": "“solvent-mediated interactions between nanostructures: from water to lennard-jones liquid” j. lam and j. f. lutsko 2018 j. chem. phys. 149, 134703 (2018)  10.1063/1.5037571"
+  },
+  {
+    "key": "j201833",
+    "title": "“Classical density functional theory, unconstrained crystallization, and polymorphic behavior”",
+    "authors": [
+      "J. F. Lutsko",
+      "J. Lam"
+    ],
+    "authors_text": "J. F. Lutsko, J. Lam",
+    "year": "2018",
+    "journal": "",
+    "note": "Phys. Rev. E 98, 012604 (2018)",
+    "doi": "",
+    "url": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.98.012604",
+    "status": "",
+    "bibtex": "@article{j201833,\n  url = {https://journals.aps.org/pre/abstract/10.1103/PhysRevE.98.012604},\n  note = {Phys. Rev. E 98, 012604 (2018)},\n  year = {2018},\n  title = {“Classical density functional theory, unconstrained crystallization, and polymorphic behavior”},\n  author = {J. F. Lutsko and J. Lam}\n}",
+    "search": "“classical density functional theory, unconstrained crystallization, and polymorphic behavior” j. f. lutsko and j. lam 2018 phys. rev. e 98, 012604 (2018)  "
+  },
+  {
+    "key": "j201834",
+    "title": "“Lattice induced crystallization of nanodroplets: role of finite-size effects and substrate properties to control polymorphism”",
+    "authors": [
+      "J. Lam",
+      "J. F. Lutsko"
+    ],
+    "authors_text": "J. Lam, J. F. Lutsko",
+    "year": "2018",
+    "journal": "",
+    "note": "Nanoscale 10, 4921 (2018)",
+    "doi": "",
+    "url": "http://pubs.rsc.org/en/content/articlelanding/2018/nr/c7nr08705e#!divAbstract",
+    "status": "",
+    "bibtex": "@article{j201834,\n  url = {http://pubs.rsc.org/en/content/articlelanding/2018/nr/c7nr08705e#!divAbstract},\n  note = {Nanoscale 10, 4921 (2018)},\n  year = {2018},\n  title = {“Lattice induced crystallization of nanodroplets: role of finite-size effects and substrate properties to control polymorphism”},\n  author = {J. Lam and J. F. Lutsko}\n}",
+    "search": "“lattice induced crystallization of nanodroplets: role of finite-size effects and substrate properties to control polymorphism” j. lam and j. f. lutsko 2018 nanoscale 10, 4921 (2018)  "
+  },
+  {
+    "key": "j201735",
+    "title": "“Solute particle near a nanopore: influence of size and surface properties on the solvent-mediated forces”",
+    "authors": [
+      "J. Lam",
+      "J. F. Lutsko"
+    ],
+    "authors_text": "J. Lam, J. F. Lutsko",
+    "year": "2017",
+    "journal": "",
+    "note": "Nanoscale 9, 17099 (2017)",
+    "doi": "",
+    "url": "http://pubs.rsc.org/en/content/articlelanding/2017/nr/c7nr07218j/unauth#!divAbstract",
+    "status": "",
+    "bibtex": "@article{j201735,\n  url = {http://pubs.rsc.org/en/content/articlelanding/2017/nr/c7nr07218j/unauth#!divAbstract},\n  note = {Nanoscale 9, 17099 (2017)},\n  year = {2017},\n  title = {“Solute particle near a nanopore: influence of size and surface properties on the solvent-mediated forces”},\n  author = {J. Lam and J. F. Lutsko}\n}",
+    "search": "“solute particle near a nanopore: influence of size and surface properties on the solvent-mediated forces” j. lam and j. f. lutsko 2017 nanoscale 9, 17099 (2017)  "
+  },
+  {
+    "key": "d201636",
+    "title": "“Origin of the nano-carbon allotropes in pulsed laser ablation in liquids synthesis”",
+    "authors": [
+      "D. Amans, M. Diouf, J. Lam, G. Ledoux, C. Dujardin"
+    ],
+    "authors_text": "D. Amans, M. Diouf, J. Lam, G. Ledoux, C. Dujardin",
+    "year": "2016",
+    "journal": "",
+    "note": "J. Colloid Interface Sci. 487, 114 (2016)",
+    "doi": "",
+    "url": "http://www.sciencedirect.com/science/article/pii/S0021979716305720",
+    "status": "",
+    "bibtex": "@article{d201636,\n  url = {http://www.sciencedirect.com/science/article/pii/S0021979716305720},\n  note = {J. Colloid Interface Sci. 487, 114 (2016)},\n  year = {2016},\n  title = {“Origin of the nano-carbon allotropes in pulsed laser ablation in liquids synthesis”},\n  author = {D. Amans, M. Diouf, J. Lam, G. Ledoux, C. Dujardin}\n}",
+    "search": "“origin of the nano-carbon allotropes in pulsed laser ablation in liquids synthesis” d. amans, m. diouf, j. lam, g. ledoux, c. dujardin 2016 j. colloid interface sci. 487, 114 (2016)  "
+  },
+  {
+    "key": "j201637",
+    "title": "“Dynamical study of bubble expansion following laser ablation in liquids”",
+    "authors": [
+      "J. Lam, J. Lombard, C. Dujardin, G. Ledoux, S. Merabia",
+      "D. Amans"
+    ],
+    "authors_text": "J. Lam, J. Lombard, C. Dujardin, G. Ledoux, S. Merabia, D. Amans",
+    "year": "2016",
+    "journal": "",
+    "note": "Appl. Phys. Lett. 108, 074104 (2016)",
+    "doi": "10.1063/1.4942389",
+    "url": "http://dx.doi.org/10.1063/1.4942389",
+    "status": "",
+    "bibtex": "@article{j201637,\n  url = {http://dx.doi.org/10.1063/1.4942389},\n  doi = {10.1063/1.4942389},\n  note = {Appl. Phys. Lett. 108, 074104 (2016)},\n  year = {2016},\n  title = {“Dynamical study of bubble expansion following laser ablation in liquids”},\n  author = {J. Lam, J. Lombard, C. Dujardin, G. Ledoux, S. Merabia and D. Amans}\n}",
+    "search": "“dynamical study of bubble expansion following laser ablation in liquids” j. lam, j. lombard, c. dujardin, g. ledoux, s. merabia and d. amans 2016 appl. phys. lett. 108, 074104 (2016)  10.1063/1.4942389"
+  },
+  {
+    "key": "j201538",
+    "title": "“Atomistic Mechanisms for the Nucleation of Aluminium Oxide Nanoparticles”",
+    "authors": [
+      "J. Lam, D. Amans, C. Dujardin, G. Ledoux",
+      "A-R. Allouche"
+    ],
+    "authors_text": "J. Lam, D. Amans, C. Dujardin, G. Ledoux, A-R. Allouche",
+    "year": "2015",
+    "journal": "",
+    "note": "J. Phys. Chem. A 119, 8944-8949 (2015)",
+    "doi": "",
+    "url": "http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05829?src=recsys",
+    "status": "",
+    "bibtex": "@article{j201538,\n  url = {http://pubs.acs.org/doi/abs/10.1021/acs.jpca.5b05829?src=recsys},\n  note = {J. Phys. Chem. A 119, 8944-8949 (2015)},\n  year = {2015},\n  title = {“Atomistic Mechanisms for the Nucleation of Aluminium Oxide Nanoparticles”},\n  author = {J. Lam, D. Amans, C. Dujardin, G. Ledoux and A-R. Allouche}\n}",
+    "search": "“atomistic mechanisms for the nucleation of aluminium oxide nanoparticles” j. lam, d. amans, c. dujardin, g. ledoux and a-r. allouche 2015 j. phys. chem. a 119, 8944-8949 (2015)  "
+  },
+  {
+    "key": "j201439",
+    "title": "“Investigation of Local Thermodynamic Equilibrium in Laser-induced Plasmas: Measurements of Rotational and Excitation Temperatures at Long Time Scales”",
+    "authors": [
+      "J. Lam, V. Motto-Ros, D. Misiak, C. Dujardin, G. Ledoux, D. Amans"
+    ],
+    "authors_text": "J. Lam, V. Motto-Ros, D. Misiak, C. Dujardin, G. Ledoux, D. Amans",
+    "year": "2014",
+    "journal": "",
+    "note": "Spectrochim. Acta Part B 101, 86-92 (2014)",
+    "doi": "",
+    "url": "http://www.sciencedirect.com/science/article/pii/S0584854714001530",
+    "status": "",
+    "bibtex": "@article{j201439,\n  url = {http://www.sciencedirect.com/science/article/pii/S0584854714001530},\n  note = {Spectrochim. Acta Part B 101, 86-92 (2014)},\n  year = {2014},\n  title = {“Investigation of Local Thermodynamic Equilibrium in Laser-induced Plasmas: Measurements of Rotational and Excitation Temperatures at Long Time Scales”},\n  author = {J. Lam, V. Motto-Ros, D. Misiak, C. Dujardin, G. Ledoux, D. Amans}\n}",
+    "search": "“investigation of local thermodynamic equilibrium in laser-induced plasmas: measurements of rotational and excitation temperatures at long time scales” j. lam, v. motto-ros, d. misiak, c. dujardin, g. ledoux, d. amans 2014 spectrochim. acta part b 101, 86-92 (2014)  "
+  },
+  {
+    "key": "j201440",
+    "title": "“γ-Al2O3 nanoparticles synthesized by pulsed laser ablation in liquids: A plasma analysis”",
+    "authors": [
+      "J. Lam, D. Amans, F. Chaput, M. Diouf, G. Ledoux, N. Mary, K. Masenelli-Varlot, V. Motto-Ros",
+      "C. Dujardin"
+    ],
+    "authors_text": "J. Lam, D. Amans, F. Chaput, M. Diouf, G. Ledoux, N. Mary, K. Masenelli-Varlot, V. Motto-Ros, C. Dujardin",
+    "year": "2014",
+    "journal": "",
+    "note": "Phys. Chem. Chem. Phys. 16, 963-97 (2014)",
+    "doi": "",
+    "url": "http://pubs.rsc.org/en/content/articlelanding/2014/cp/c3cp53748j#%21divAbstract",
+    "status": "",
+    "bibtex": "@article{j201440,\n  url = {http://pubs.rsc.org/en/content/articlelanding/2014/cp/c3cp53748j#%21divAbstract},\n  note = {Phys. Chem. Chem. Phys. 16, 963-97 (2014)},\n  year = {2014},\n  title = {“γ-Al2O3 nanoparticles synthesized by pulsed laser ablation in liquids: A plasma analysis”},\n  author = {J. Lam, D. Amans, F. Chaput, M. Diouf, G. Ledoux, N. Mary, K. Masenelli-Varlot, V. Motto-Ros and C. Dujardin}\n}",
+    "search": "“γ-al2o3 nanoparticles synthesized by pulsed laser ablation in liquids: a plasma analysis” j. lam, d. amans, f. chaput, m. diouf, g. ledoux, n. mary, k. masenelli-varlot, v. motto-ros and c. dujardin 2014 phys. chem. chem. phys. 16, 963-97 (2014)  "
+  }
+]

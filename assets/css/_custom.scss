@@ -163,3 +163,46 @@
   color: #6b7280;
 }
 
+// Add this block to css/_custom.scss (keep your existing custom styles).
+.pub-page {
+  --pub-accent: #267c9b;
+  --pub-line: rgba(127, 140, 150, .25);
+  max-width: 940px;
+  margin: 0 auto;
+}
+.pub-intro { padding: .4rem 0 1.8rem; }
+.pub-kicker { color: var(--pub-accent); font-size: .75rem; font-weight: 800; letter-spacing: .13em; }
+.pub-heading { margin: .35rem 0 .55rem; font-size: clamp(2rem, 5vw, 3rem); letter-spacing: -.04em; }
+.pub-intro > p { max-width: 680px; color: var(--secondary); font-size: 1.04rem; }
+.pub-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; margin-top: 1.5rem; }
+.pub-stat { display: flex; flex-direction: column; gap: .2rem; padding: 1rem 1.1rem; border: 1px solid var(--pub-line); border-radius: 14px; }
+.pub-stat strong { font-size: 1.45rem; line-height: 1.2; }
+.pub-stat span { color: var(--secondary); font-size: .8rem; }
+.pub-controls { position: sticky; top: .5rem; z-index: 5; padding: .8rem; margin: 1rem 0 1.4rem; border: 1px solid var(--pub-line); border-radius: 14px; background: var(--header-background, var(--global-background)); box-shadow: 0 8px 24px rgba(0,0,0,.04); }
+.pub-search-wrap { display: flex; align-items: center; gap: .65rem; padding: .15rem .45rem; }
+.pub-search-wrap > span { color: var(--secondary); font-size: 1.5rem; }
+.pub-search-wrap input { width: 100%; min-width: 0; padding: .45rem 0; border: 0; outline: 0; color: var(--content); background: transparent; box-shadow: none; }
+.pub-control-bottom { display: flex; align-items: center; justify-content: space-between; gap: .8rem; padding: .55rem .45rem 0; border-top: 1px solid var(--pub-line); color: var(--secondary); font-size: .8rem; }
+.pub-control-bottom select { max-width: 180px; padding: .35rem .5rem; border: 1px solid var(--pub-line); border-radius: 8px; color: var(--content); background: transparent; }
+.pub-list { display: flex; flex-direction: column; }
+.pub-item { display: grid; grid-template-columns: 68px minmax(0, 1fr); gap: 1rem; padding: 1.25rem 0 1.35rem; border-bottom: 1px solid var(--pub-line); }
+.pub-item[hidden] { display: none; }
+.pub-year { padding-top: .18rem; color: var(--pub-accent); font-size: .85rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+.pub-title { margin: 0 0 .5rem; font-size: 1.08rem; line-height: 1.45; font-weight: 750; }
+.pub-authors { margin: 0 0 .3rem; font-size: .92rem; line-height: 1.6; }
+.pub-journal { margin: 0 0 .65rem; color: var(--secondary); font-size: .88rem; }
+.pub-status { display: inline-block; padding: .12rem .5rem; border: 1px solid var(--pub-line); border-radius: 999px; font-size: .75rem; font-weight: 700; }
+.pub-links { display: flex; flex-wrap: wrap; align-items: center; gap: .85rem; font-size: .8rem; }
+.pub-links a { color: var(--pub-accent); font-weight: 700; text-decoration: none; }
+.pub-links a:hover { text-decoration: underline; }
+.pub-bib-button { padding: 0; border: 0; color: var(--secondary); background: transparent; font: inherit; cursor: pointer; }
+.pub-bib-button:hover { color: var(--pub-accent); }
+.pub-empty { padding: 2rem 0; color: var(--secondary); text-align: center; }
+@media (max-width: 600px) {
+  .pub-stats { gap: .45rem; }
+  .pub-stat { padding: .75rem; }
+  .pub-stat strong { font-size: 1.2rem; }
+  .pub-item { grid-template-columns: 48px minmax(0, 1fr); gap: .65rem; }
+  .pub-title { font-size: 1rem; }
+  .pub-controls { position: static; }
+}

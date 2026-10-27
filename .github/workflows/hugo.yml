@@ -43,6 +43,17 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install BibTeX parser
+        run: pip install bibtexparser==1.4.3
+
+      - name: Build publications data
+        run: python scripts/build_publications.py
+
       - name: Build
         run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 

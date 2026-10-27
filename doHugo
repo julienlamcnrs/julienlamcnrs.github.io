@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Lancer Hugo server en arrière-plan avec -D
+hugo server -D &
+HUGO_PID=$!
+
+# Attendre 2 secondes que le serveur démarre
+sleep 2
+
+# Ouvrir Firefox sur l'URL locale par défaut d'Hugo
+open -a "Firefox" http://localhost:1313/
+
+# Garder le script actif et stopper Hugo proprement si on fait Ctrl+C
+trap "kill $HUGO_PID" EXIT
+wait $HUGO_PID
