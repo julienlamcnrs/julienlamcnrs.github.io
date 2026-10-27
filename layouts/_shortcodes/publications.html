@@ -1,63 +1,3 @@
-{{- $items := site.Data.publications -}}
-<div class="pub-page">
-  <div class="pub-intro">
-    <div class="pub-stats">
-      <div class="pub-stat"><strong>{{ len $items }}</strong><span>References</span></div>
-      <div class="pub-stat"><strong>{{ len (where $items "status" "Submitted") }}</strong><span>Submitted</span></div>
-      <div class="pub-stat"><strong>2014–2026</strong><span>Research period</span></div>
-    </div>
-  </div>
-
-  <div class="pub-controls">
-    <label class="pub-search-wrap" for="pub-search">
-      <span aria-hidden="true">⌕</span>
-      <input id="pub-search" type="search" placeholder="Search title, author, year or keyword…" autocomplete="off">
-    </label>
-    <div class="pub-control-bottom">
-      <span id="pub-count" aria-live="polite">{{ len $items }} publications</span>
-      <select id="pub-filter" aria-label="Filter publications">
-        <option value="all">All publications</option>
-        <option value="published">Published</option>
-        <option value="submitted">Submitted</option>
-      </select>
-    </div>
-  </div>
-
-  <div class="pub-list" id="pub-list">
-    {{- range $i, $p := $items }}
-    <article class="pub-item" data-search="{{ $p.search | htmlEscape }}" data-status="{{ if eq $p.status "Submitted" }}submitted{{ else }}published{{ end }}">
-      <div class="pub-year">{{ if $p.year }}{{ $p.year }}{{ else }}—{{ end }}</div>
-      <div class="pub-main">
-        <h3 class="pub-title">
-          {{- if $p.url -}}
-            <a href="{{ $p.url }}" target="_blank" rel="noopener noreferrer">{{ $p.title }}</a>
-          {{- else -}}
-            {{ $p.title }}
-          {{- end -}}
-        </h3>
-        <p class="pub-authors">{{ $p.authors_text | htmlEscape }}</p>
-        {{- if or $p.journal $p.note }}
-        <p class="pub-journal">
-          {{- with $p.journal }}<em>{{ . }}</em>{{ end -}}
-          {{- if and $p.journal $p.note }} · {{ end -}}
-          {{- if $p.status -}}
-            <span class="pub-status">{{ $p.status }}</span>
-          {{- else -}}
-            {{ $p.note }}
-          {{- end -}}
-          {{- /* Ajout d'un badge arXiv si l'URL contient arxiv.org */ -}}
-          {{- if and $p.url (strings.Contains $p.url "arxiv.org") -}}
-            <span class="pub-arxiv-badge" style="margin-left: 6px; font-size: 0.85em; padding: 1px 6px; background: #f1f1f1; border: 1px solid #ddd; border-radius: 4px; color: #b31b1b; font-weight: 600;">arXiv</span>
-          {{- end -}}
-        </p>
-        {{- end }}
-      </div>
-    </article>
-    {{- end }}
-    <p id="pub-empty" class="pub-empty" hidden>No publications match your search.</p>
-  </div>
-</div>
-
 <script>
 (function () {
   const root = document.querySelector('.pub-page');
@@ -105,7 +45,6 @@
         setTimeout(() => button.textContent = 'Copy BibTeX', 1400);
       }
     });
-    });
-  });
+  }); // <-- Ici, une seule accolade fermante pour .forEach (et non deux)
 })();
 </script>
