@@ -12,7 +12,7 @@ toc:
 # Current group members
 
 {{< people >}}
-{{< member name="Afaf Hrich" role="PhD student" years="2026–" img="/images/2026/09/afaf.png" topic="Use pressure to stabilize new active pharmaceuticals ingredients" note="Co-supervised with M. Guerain and F. Affouard" >}}
+{{< member name="Afaf Hrich" role="PhD student" years="2026–" img="/images/2026/09/afaf.png" topic="Use pressure to stabilize new active pharmaceuticals ingredients" note="Co-supervised with Mathieu Guerain and F. Affouard" >}}
 {{< member name="Gilberto Alou" role="Postdoctoral researcher" years="2026–" img="/images/2026/09/gilberto.png" topic="Crystallization in iron oxide nanoparticles" >}}
 {{< member name="Johannes Sandberg" role="Postdoctoral researcher" years="2025–" img="/images/2025/06/image603.png" topic="Rationalizing machine-learning interaction potentials" >}}
 {{< member name="Roberto Tabacco" role="PhD student" years="2024–" img="/images/2024/03/roberto.png" topic="Nucleation in dilute systems using rare-event sampling" >}}
