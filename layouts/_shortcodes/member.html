@@ -1,0 +1,19 @@
+{{- $name := .Get "name" -}}
+<div class="person-card">
+  {{- with .Get "img" }}
+  <img class="person-photo" src="{{ . }}" alt="{{ $name }}" loading="lazy">
+  {{- end }}
+  <div class="person-info">
+    <div class="person-name">{{ $name }}</div>
+    <div class="person-meta">{{ .Get "role" }}{{ with .Get "years" }} · {{ . }}{{ end }}</div>
+    {{- with .Get "topic" }}
+    <div class="person-topic">“{{ . }}”</div>
+    {{- end }}
+    {{- with .Get "now" }}
+    <div class="person-note"><strong>Now:</strong> {{ . | safeHTML }}</div>
+    {{- end }}
+    {{- with .Get "note" }}
+    <div class="person-note">{{ . | safeHTML }}</div>
+    {{- end }}
+  </div>
+</div>

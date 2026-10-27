@@ -76,7 +76,7 @@ defaultContentLanguage = "en"
     [languages.en.params.home.profile]
       enable = true
       gravatarEmail = ""
-      avatarURL = "https://julienlamblog.wordpress.com/wp-content/uploads/2020/11/received_134163431494541.jpeg"
+      avatarURL = "/images/2020/11/received_134163431494541.jpeg"
       title = "Julien Lam"
       subtitle = "Permanent CNRS researcher"
       typeit = false

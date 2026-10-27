@@ -1,8 +1,12 @@
 #!/bin/bash
 
+if [[ "$1" != "" ]]
+then
+	echo "O"$1"K"
 
-
-git add .
-git commit -m $1 
-git push
-
+	git add .
+	git commit -m $1 
+	git push
+else
+	echo need NAME
+fi

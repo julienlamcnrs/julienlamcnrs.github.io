@@ -9,38 +9,38 @@ toc:
 
 ![](https://julienlamblog.wordpress.com/wp-content/uploads/2026/06/screenshot_20260617_111127-1.png?w=1024)
 
-**Current group members**
+# Current group members
 
-| | |
-|---|---|
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2026/09/afaf.png) | Afaf Hrich, PhD student co-supervised with M. Guerain and F. Affouard (2026-)<br>Topic: “Use pressure to stabilize new active pharmaceuticals ingredients” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2026/09/gilberto.png) | Gilberto Alou, Postdoctoral researcher (2026-)<br>Topic: “Crystallization in iron oxide nanoparticles” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2025/06/image603.png) | Johannes Sandberg, Postdoctoral researcher (2025-)<br>Topic: “Rationalizing machine-learning interaction potentials” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2024/03/roberto.png) | Roberto Tabacco, PhD student (2024-)<br>Topic: “Nucleation in dillute systems using rare-event sampling” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2024/01/lorena.png) | Lorena Chabeaud, PhD student (2023-) co-supervised with [Hazar Guesmi](https://www.icgm.fr/hazar-guesmi/) from ICGM<br>Topic: “Structural dynamics of nanoparticles in hydrogen” |
+{{< people >}}
+{{< member name="Afaf Hrich" role="PhD student" years="2026–" img="/images/2026/09/afaf.png" topic="Use pressure to stabilize new active pharmaceuticals ingredients" note="Co-supervised with M. Guerain and F. Affouard" >}}
+{{< member name="Gilberto Alou" role="Postdoctoral researcher" years="2026–" img="/images/2026/09/gilberto.png" topic="Crystallization in iron oxide nanoparticles" >}}
+{{< member name="Johannes Sandberg" role="Postdoctoral researcher" years="2025–" img="/images/2025/06/image603.png" topic="Rationalizing machine-learning interaction potentials" >}}
+{{< member name="Roberto Tabacco" role="PhD student" years="2024–" img="/images/2024/03/roberto.png" topic="Nucleation in dilute systems using rare-event sampling" >}}
+{{< member name="Lorena Chabeaud" role="PhD student" years="2023–" img="/images/2024/01/lorena.png" topic="Structural dynamics of nanoparticles in hydrogen" note="Co-supervised with <a href='https://www.icgm.fr/hazar-guesmi/'>Hazar Guesmi</a> (ICGM)" >}}
+{{< /people >}}
 
-**Past students**
+# Past students
 
-| | |
-|---|---|
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2026/08/charles.png) | Charles Ghazlane, Bachelor student (2026)<br>Topic: “Polymorphism of copper oxide Cu2O using DFT calculations” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2026/05/caro-2.png) | Caroline Traisnel, Postdoctoral researcher (2026)<br>Topic: “Building a robust DFT database for ZnxCuyO” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2026/02/path504-3.png) | Anfernee-Harry Triol, Master student (2025)<br>Topic: “Ice nucleation in nanoscale confinement through rare-event sampling” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2026/02/path504.png) | Daniela De-Llano-Garcia, Master student (2026)<br>Topic: “Developping a gold-iron machine-learning intearction potential for nanoscale modelling” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2024/01/path944-3-6.png) | Quentin Gromoff, PhD student (2022-2025) co-supervised with [Magali Benoit](https://scholar.google.com/citations?hl=fr&user=WnI2gnAAAAAJ&view_op=list_works&sortby=pubdate) from CEMES, now Postdoc at CEA/DAM Ile-de-France<br>Topic: “Nucleation processes in nanoparticles” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2025/06/image292.png) | Raghavendra Nomula, Master student (2025), now PhD student at Norwegian University of Science and Technology<br>Topic: “From Vapor to Crystal Nucleation: A Study of the nucleation dynamics” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2025/01/bitmap.png) | Gwendoline Bertorelli, Bachelor student (2025)<br>Topic: “Influence of ligand molecules on the nanoparticle formation process” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2024/01/path944-3.png) | Daniel Haslam, Master student (2024), now Data Scientist at The Hut Group<br>Topic: “Physical LassoLars Interaction Potential for Systems of Three Atomic Species” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2024/01/path837.png) | Gaetan Loubet dit Gajol, Bachelor student (2024)<br>Topic: “Modeling interactions in gold-iron nanoparticles” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2024/01/path883.png) | Valentino Sanguinetti, Master student (2024), now PhD student at ENS Département de Physique<br>Topic: “Machine-learning the catalytic properties of nanoparticles” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2024/01/circle121816.png) | Cesar Jara, PhD student (2020-2023), now Postdoc at Institute of Radioprotection and Nuclear Safety<br>Topic: “Silicidation process: Modelling nickel deposition and diffusion from silicide/silicon interfaces” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2024/01/path944-3.png) | Anthony Pecquenard, Bachelor student (2023), now PhD at Universté Claude Bernard<br>Topic: “Role of substrate structure on epitaxial nucleation and growth of nanoparticles” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2024/01/circle.png) | Jona Naergel, Master student (2023), now PhD student at University of Cambridge<br>Topic: “Machine-learning the catalytic properties of nanoparticles” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2024/01/carlos.png) | Carlos Salazar, Master student (2023), now PhD at Linköping University<br>Topic: “Data-driven approach for crystal structure analysis” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2024/01/circle1218116.png) | Vctoire Meko, Master student (2023), now PhD at Université de Franche-Comté<br>Topic: “Machine-learning interactions in forsterite” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2024/01/path1588.png) | Akshay Ammothum Kandy, Postdoc (2021-2023), now Research Engineer at Sorbonne University<br>Topic: “Long-range interactions and on-the-fly training for machine-learning interaction potentials” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2024/01/circle11326.png) | Jorge Fabila, Master thesis (2021-2022) co-supervised with [Stefan Bromley](https://www.ub.edu/nnmgroup/) from Barcelona University, now PhD at Universitat Pompeu Fabra<br>Topic: “Modeling silicon carbides nanostructures using various machine-learning approaches” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2024/01/path944-3-1.png) | Alexis Raulin-Foissac, Bachelor student (2021) now PhD at Université Claude Bernard<br>Topic: “Comparing Physical LassoLars Interaction Potential and Neural Network Potentials in the case of ZnO interactions” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2024/01/circle126.png) | Owen Fresse–Colson, Bachelor student (2021) now PhD at Université Bourgogne Europe<br>Topic: “Implementation of energy fitting in Φ-LassoLars” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2024/01/circle1216.png) | Aurélien Roux, Bachelor student (2019), now PhD at Toulouse University<br>Topic: “Implementation of excplicit angular dependance in machine-learning potential” |
-| ![](https://julienlamblog.wordpress.com/wp-content/uploads/2024/01/circle121746.png) | Ibrahim Khaled, Master student (2019), now Application Engineer at equensWorldline<br>Topic: “Optimizing training data set for machine-learning potentials” |
+{{< people >}}
+{{< member name="Charles Ghazlane" role="Bachelor student" years="2026" img="/images/2026/08/charles.png" topic="Polymorphism of copper oxide Cu2O using DFT calculations" >}}
+{{< member name="Caroline Traisnel" role="Postdoctoral researcher" years="2026" img="/images/2026/05/caro-2.png" topic="Building a robust DFT database for ZnxCuyO" >}}
+{{< member name="Anfernee-Harry Triol" role="Master student" years="2025" img="/images/2026/02/path504-3.png" topic="Ice nucleation in nanoscale confinement through rare-event sampling" >}}
+{{< member name="Daniela De-Llano-Garcia" role="Master student" years="2026" img="/images/2026/02/path504.png" topic="Developing a gold-iron machine-learning interaction potential for nanoscale modelling" >}}
+{{< member name="Quentin Gromoff" role="PhD student" years="2022–2025" img="/images/2024/01/path944-3-6.png" topic="Nucleation processes in nanoparticles" now="Postdoc at CEA/DAM Ile-de-France" note="Co-supervised with <a href='https://scholar.google.com/citations?hl=fr&user=WnI2gnAAAAAJ&view_op=list_works&sortby=pubdate'>Magali Benoit</a> (CEMES)" >}}
+{{< member name="Raghavendra Nomula" role="Master student" years="2025" img="/images/2025/06/image292.png" topic="From Vapor to Crystal Nucleation: A Study of the nucleation dynamics" now="PhD student at Norwegian University of Science and Technology" >}}
+{{< member name="Gwendoline Bertorelli" role="Bachelor student" years="2025" img="/images/2025/01/bitmap.png" topic="Influence of ligand molecules on the nanoparticle formation process" >}}
+{{< member name="Daniel Haslam" role="Master student" years="2024" img="/images/2024/01/path944-3.png" topic="Physical LassoLars Interaction Potential for Systems of Three Atomic Species" now="Data Scientist at The Hut Group" >}}
+{{< member name="Gaetan Loubet dit Gajol" role="Bachelor student" years="2024" img="/images/2024/01/path837.png" topic="Modeling interactions in gold-iron nanoparticles" >}}
+{{< member name="Valentino Sanguinetti" role="Master student" years="2024" img="/images/2024/01/path883.png" topic="Machine-learning the catalytic properties of nanoparticles" now="PhD student at ENS Département de Physique" >}}
+{{< member name="Cesar Jara" role="PhD student" years="2020–2023" img="/images/2024/01/circle121816.png" topic="Silicidation process: Modelling nickel deposition and diffusion from silicide/silicon interfaces" now="Postdoc at Institute of Radioprotection and Nuclear Safety" >}}
+{{< member name="Anthony Pecquenard" role="Bachelor student" years="2023" img="/images/2024/01/path944-3.png" topic="Role of substrate structure on epitaxial nucleation and growth of nanoparticles" now="PhD at Université Claude Bernard" >}}
+{{< member name="Jona Naergel" role="Master student" years="2023" img="/images/2024/01/circle.png" topic="Machine-learning the catalytic properties of nanoparticles" now="PhD student at University of Cambridge" >}}
+{{< member name="Carlos Salazar" role="Master student" years="2023" img="/images/2024/01/carlos.png" topic="Data-driven approach for crystal structure analysis" now="PhD at Linköping University" >}}
+{{< member name="Vctoire Meko" role="Master student" years="2023" img="/images/2024/01/circle1218116.png" topic="Machine-learning interactions in forsterite" now="PhD at Université de Franche-Comté" >}}
+{{< member name="Akshay Ammothum Kandy" role="Postdoc" years="2021–2023" img="/images/2024/01/path1588.png" topic="Long-range interactions and on-the-fly training for machine-learning interaction potentials" now="Research Engineer at Sorbonne University" >}}
+{{< member name="Jorge Fabila" role="Master student" years="2021–2022" img="/images/2024/01/circle11326.png" topic="Modeling silicon carbides nanostructures using various machine-learning approaches" now="PhD at Universitat Pompeu Fabra" note="Co-supervised with <a href='https://www.ub.edu/nnmgroup/'>Stefan Bromley</a> (Barcelona University)" >}}
+{{< member name="Alexis Raulin-Foissac" role="Bachelor student" years="2021" img="/images/2024/01/path944-3-1.png" topic="Comparing Physical LassoLars Interaction Potential and Neural Network Potentials in the case of ZnO interactions" now="PhD at Université Claude Bernard" >}}
+{{< member name="Owen Fresse–Colson" role="Bachelor student" years="2021" img="/images/2024/01/circle126.png" topic="Implementation of energy fitting in Φ-LassoLars" now="PhD at Université Bourgogne Europe" >}}
+{{< member name="Aurélien Roux" role="Bachelor student" years="2019" img="/images/2024/01/circle1216.png" topic="Implementation of explicit angular dependence in machine-learning potential" now="PhD at Toulouse University" >}}
+{{< member name="Ibrahim Khaled" role="Master student" years="2019" img="/images/2024/01/circle121746.png" topic="Optimizing training data set for machine-learning potentials" now="Application Engineer at equensWorldline" >}}
+{{< /people >}}
