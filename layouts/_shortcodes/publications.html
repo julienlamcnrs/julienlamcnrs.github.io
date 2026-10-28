@@ -1,19 +1,23 @@
-{{- $items := site.Data.publications -}}
-<div class="pub-page">
-  <div class="pub-intro">
-    <div class="pub-stats">
+{{- $items := hugo.Data.publications -}}
+{{- $sortedItems := sort $items "year" "desc" -}}
+
+<!-- Conteneur global totalement isolé pour éviter tout débordement CSS -->
+<div class="pub-page" style="display: block; width: 100%; clear: both; float: none; position: relative; margin-top: 20px;">
+  
+  <div class="pub-intro" style="display: block; width: 100%; margin-bottom: 20px; clear: both;">
+    <div class="pub-stats" style="display: flex; gap: 15px; margin-bottom: 20px;">
       <div class="pub-stat"><strong>{{ len $items }}</strong><span>References</span></div>
       <div class="pub-stat"><strong>{{ len (where $items "status" "Submitted") }}</strong><span>Submitted</span></div>
       <div class="pub-stat"><strong>2014–2026</strong><span>Research period</span></div>
     </div>
   </div>
 
-  <div class="pub-controls">
-    <label class="pub-search-wrap" for="pub-search">
+  <div class="pub-controls" style="display: block; width: 100%; margin-bottom: 25px; clear: both;">
+    <label class="pub-search-wrap" for="pub-search" style="display: block; margin-bottom: 10px;">
       <span aria-hidden="true">⌕</span>
-      <input id="pub-search" type="search" placeholder="Search title, author, year or keyword…" autocomplete="off">
+      <input id="pub-search" type="search" placeholder="Search title, author, year or keyword…" autocomplete="off" style="width: 100%; padding: 8px;">
     </label>
-    <div class="pub-control-bottom">
+    <div class="pub-control-bottom" style="display: flex; justify-content: space-between; align-items: center;">
       <span id="pub-count" aria-live="polite">{{ len $items }} publications</span>
       <select id="pub-filter" aria-label="Filter publications">
         <option value="all">All publications</option>
@@ -23,37 +27,63 @@
     </div>
   </div>
 
-  <div class="pub-list" id="pub-list">
-    {{- range $i, $p := $items }}
-    <article class="pub-item" data-search="{{ $p.search | htmlEscape }}" data-status="{{ if eq $p.status "Submitted" }}submitted{{ else }}published{{ end }}">
-      <div class="pub-year">{{ if $p.year }}{{ $p.year }}{{ else }}—{{ end }}</div>
-      <div class="pub-main">
-        <h3 class="pub-title">
-          {{- if $p.url -}}
-            <a href="{{ $p.url }}" target="_blank" rel="noopener noreferrer">{{ $p.title }}</a>
-          {{- else -}}
-            {{ $p.title }}
-          {{- end -}}
-        </h3>
-        <p class="pub-authors">{{ $p.authors_text | htmlEscape }}</p>
-        {{- if or $p.journal $p.note }}
-        <p class="pub-journal">
-          {{- with $p.journal }}<em>{{ . }}</em>{{ end -}}
-          {{- if and $p.journal $p.note }} · {{ end -}}
-          {{- if $p.status -}}
-            <span class="pub-status">{{ $p.status }}</span>
-          {{- else -}}
-            {{ $p.note }}
-          {{- end -}}
-          {{- /* Ajout d'un badge arXiv si l'URL contient arxiv.org */ -}}
-          {{- if and $p.url (strings.Contains $p.url "arxiv.org") -}}
-            <span class="pub-arxiv-badge" style="margin-left: 6px; font-size: 0.85em; padding: 1px 6px; background: #f1f1f1; border: 1px solid #ddd; border-radius: 4px; color: #b31b1b; font-weight: 600;">arXiv</span>
-          {{- end -}}
-        </p>
-        {{- end }}
-      </div>
-    </article>
-    {{- end }}
+  <div class="pub-list" id="pub-list" style="display: block; width: 100%; clear: both;">
+    {{- $currentYear := "" -}}
+    {{- range $sortedItems -}}
+      {{- if ne .year $currentYear -}}
+        {{- $currentYear = .year -}}
+        <!-- En-tête de l'année aligné à droite, totalement indépendant -->
+        <div class="pub-year-group" data-year="{{ $currentYear }}" style="display: block; width: 100%; clear: both; margin-top: 35px; margin-bottom: 15px;">
+          <div style="display: flex; justify-content: flex-end; width: 100%; border-bottom: 3px solid #0066cc; padding-bottom: 4px;">
+            <h2 class="pub-year-heading" style="font-size: 1.4rem; font-weight: bold; color: #0066cc; margin: 0; line-height: 1;">{{ if $currentYear }}{{ $currentYear }}{{ else }}—{{ end }}</h2>
+          </div>
+        </div>
+      {{- end -}}
+
+      <!-- Article individuel -->
+      <article class="pub-item" data-search="{{ .search | htmlEscape }}" data-status="{{ if eq .status "Submitted" }}submitted{{ else }}published{{ end }}" style="display: block; width: 100%; clear: both; margin-bottom: 14px;">
+        <div class="pub-main" style="display: block; width: 100%;">
+          
+          <!-- 1. Titre cliquable -->
+          <h3 class="pub-title" style="margin: 0 0 2px 0; font-size: 1.05rem; font-weight: 600; line-height: 1.35;">
+            {{- if .url -}}
+              <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: #0066cc;">{{ .title }}</a>
+            {{- else -}}
+              {{ .title }}
+            {{- end -}}
+          </h3>
+
+          <!-- 2. Auteurs (J. Lam en gras) -->
+          <p class="pub-authors" style="margin: 0 0 2px 0; color: #444; font-size: 0.95rem; line-height: 1.35;">
+            {{- range $ai, $author := .authors -}}
+              {{- if gt $ai 0 }}, {{ end -}}
+              {{- if or (eq $author "J. Lam") (eq $author "J Lam") -}}
+                <strong>J. Lam</strong>
+              {{- else -}}
+                {{- $author -}}
+              {{- end -}}
+            {{- end -}}
+          </p>
+
+          <!-- 3. Journal et note / badge arXiv -->
+          {{- if or .journal .note }}
+          <p class="pub-journal" style="margin: 0; color: #666; font-size: 0.9rem;">
+            {{- with .journal }}<em>{{ . }}</em>{{ end -}}
+            {{- if and .journal .note }} · {{ end -}}
+            {{- if .status -}}
+              <span class="pub-status">{{ .status }}</span>
+            {{- else -}}
+              {{ .note }}
+            {{- end -}}
+            {{- if and .url (strings.Contains .url "arxiv.org") -}}
+              <span class="pub-arxiv-badge" style="margin-left: 6px; font-size: 0.8em; padding: 1px 5px; background: #f1f1f1; border: 1px solid #ddd; border-radius: 4px; color: #b31b1b; font-weight: 600;">arXiv</span>
+            {{- end -}}
+          </p>
+          {{- end }}
+        </div>
+      </article>
+    {{- end -}}
+
     <p id="pub-empty" class="pub-empty" hidden>No publications match your search.</p>
   </div>
 </div>
@@ -65,46 +95,27 @@
   root.dataset.ready = 'true';
   const search = root.querySelector('#pub-search');
   const filter = root.querySelector('#pub-filter');
-  const items = Array.from(root.querySelectorAll('.pub-item'));
+  const itemsAll = Array.from(root.querySelectorAll('.pub-item'));
   const count = root.querySelector('#pub-count');
   const empty = root.querySelector('#pub-empty');
 
   function update() {
     const q = search.value.trim().toLowerCase();
-    let visible = 0;
-    items.forEach(item => {
+    let visibleTotal = 0;
+
+    itemsAll.forEach(item => {
       const matchesText = (item.dataset.search || '').toLowerCase().includes(q);
       const matchesStatus = filter.value === 'all' || item.dataset.status === filter.value;
       const show = matchesText && matchesStatus;
-      item.hidden = !show;
-      if (show) visible++;
+      item.style.display = show ? 'block' : 'none';
+      if (show) visibleTotal++;
     });
-    count.textContent = visible + (visible === 1 ? ' publication' : ' publications');
-    empty.hidden = visible !== 0;
+
+    count.textContent = visibleTotal + (visibleTotal === 1 ? ' publication' : ' publications');
+    empty.hidden = visibleTotal !== 0;
   }
+
   search.addEventListener('input', update);
   filter.addEventListener('change', update);
-  root.querySelectorAll('.pub-bib-button').forEach(button => {
-    button.addEventListener('click', async () => {
-      const bib = button.dataset.bib || '';
-      try {
-        await navigator.clipboard.writeText(bib);
-        const old = button.textContent;
-        button.textContent = 'Copied!';
-        setTimeout(() => button.textContent = old, 1400);
-      } catch (e) {
-        const field = document.createElement('textarea');
-        field.value = bib;
-        field.style.position = 'fixed';
-        field.style.opacity = '0';
-        document.body.appendChild(field);
-        field.select();
-        document.execCommand('copy');
-        field.remove();
-        button.textContent = 'Copied!';
-        setTimeout(() => button.textContent = 'Copy BibTeX', 1400);
-      }
-    });
-  });
 })();
 </script>

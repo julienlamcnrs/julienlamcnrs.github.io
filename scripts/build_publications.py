@@ -21,7 +21,15 @@ def clean(value):
 def split_authors(value):
     if not value:
         return []
-    return [clean(x) for x in re.split(r"\s+and\s+", value) if clean(x)]
+    # On découpe d'abord par les virgules et les 'and'
+    raw_authors = re.split(r",|\s+and\s+", value)
+    authors = []
+    for x in raw_authors:
+        cleaned = clean(x)
+        # On évite d'ajouter des chaînes vides
+        if cleaned and cleaned.lower() != "and":
+            authors.append(cleaned)
+    return authors
 
 def main():
     if not BIB_PATH.exists():

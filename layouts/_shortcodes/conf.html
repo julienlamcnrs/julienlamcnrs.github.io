@@ -1,0 +1,19 @@
+{{- $link := .Get "link" -}}
+<div class="conf-item">
+  <div class="conf-title">
+    {{- if $link }}<a href="{{ $link }}">{{ .Get "title" }}</a>{{ else }}{{ .Get "title" }}{{ end -}}
+    {{- with .Get "tag" }}<span class="conf-tag">{{ . }}</span>{{ end -}}
+  </div>
+  {{- with .Get "event" }}
+  <div class="conf-event">{{ . }}</div>
+  {{- end }}
+  {{- $place := .Get "place" -}}
+  {{- $note := .Get "note" -}}
+  {{- if or $place $note }}
+  <div class="conf-meta">
+    {{- with $place }}<span class="conf-place">{{ . }}</span>{{ end -}}
+    {{- if and $place $note }}<span class="conf-sep">·</span>{{ end -}}
+    {{- with $note }}<span class="conf-note">{{ . | safeHTML }}</span>{{ end -}}
+  </div>
+  {{- end }}
+</div>

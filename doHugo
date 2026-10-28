@@ -1,5 +1,11 @@
 #!/bin/bash
 
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install bibtexparser==1.4.3
+
+python scripts/build_publications.py
+
 # Lancer Hugo server en arrière-plan avec -D
 hugo server -D &
 HUGO_PID=$!
