@@ -1,0 +1,118 @@
+{{- $all := hugo.Data.conferences -}}
+{{- $sorted := sort $all "sortkey" "desc" -}}
+
+{{- $nOral := 0 -}}{{- $nInv := 0 -}}{{- $nSem := 0 -}}{{- $nPos := 0 -}}
+{{- range $all -}}
+  {{- $more := .also | default slice -}}
+  {{- if eq .type "oral" -}}
+    {{- $nOral = add $nOral (add 1 (len $more)) -}}
+    {{- if .invited }}{{ $nInv = add $nInv 1 }}{{ end -}}
+    {{- range $more }}{{ if .invited }}{{ $nInv = add $nInv 1 }}{{ end }}{{ end -}}
+  {{- else if eq .type "seminar" -}}
+    {{- $nSem = add $nSem 1 -}}
+  {{- else -}}
+    {{- $nPos = add $nPos 1 -}}
+  {{- end -}}
+{{- end -}}
+
+<div class="conf-page">
+  <div class="conf-controls">
+    <button type="button" class="conf-chip" data-filter="oral" aria-pressed="false"><span class="conf-dot conf-dot-oral"></span>Oral <b>{{ $nOral }}</b></button>
+    <button type="button" class="conf-chip" data-filter="seminar" aria-pressed="false"><span class="conf-dot conf-dot-seminar"></span>Seminars <b>{{ $nSem }}</b></button>
+    <button type="button" class="conf-chip" data-filter="poster" aria-pressed="false"><span class="conf-dot conf-dot-poster"></span>Posters <b>{{ $nPos }}</b></button>
+    <button type="button" class="conf-chip" data-filter="invited" aria-pressed="false"><span class="conf-dot conf-dot-invited"></span>Invited <b>{{ $nInv }}</b></button>
+    <label class="conf-search" for="conf-search">
+      <span aria-hidden="true">⌕</span>
+      <input id="conf-search" type="search" placeholder="Search…" autocomplete="off">
+    </label>
+  </div>
+
+  <div class="conf-list" id="conf-list">
+  {{- $prev := "start" -}}
+  {{- range $sorted -}}
+    {{- $y := .year | default 0 -}}
+    {{- $key := string $y -}}
+    {{- if ne $key $prev -}}
+      {{- if ne $prev "start" }}</section>{{ end }}
+      <section class="conf-year" data-year="{{ $key }}">
+        <div class="conf-year-head"><span>{{ if gt (int $y) 0 }}{{ $y }}{{ else }}—{{ end }}</span></div>
+      {{- $prev = $key -}}
+    {{- end -}}
+
+    {{- $more := .also | default slice -}}
+    {{- $anyInv := .invited -}}
+    {{- range $more }}{{ if .invited }}{{ $anyInv = true }}{{ end }}{{ end -}}
+    {{- $s := printf "%s %s %s %v" .title (.event | default "") (.place | default "") $y -}}
+    {{- with .host }}{{ $s = printf "%s %s" $s (. | plainify) }}{{ end -}}
+    {{- with .authors }}{{ $s = printf "%s %s" $s (. | plainify) }}{{ end -}}
+    {{- range $more }}{{ $s = printf "%s %s %s" $s (.event | default "") (.place | default "") }}{{ end }}
+
+    <article class="conf-row conf-row-{{ .type }}" data-type="{{ .type }}" data-invited="{{ if $anyInv }}true{{ else }}false{{ end }}" data-search="{{ $s | lower }}">
+      <div class="conf-body">
+        <div class="conf-title">
+          {{- if .link -}}
+            <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .title }}<span class="conf-ext" aria-hidden="true">↗</span></a>
+          {{- else -}}
+            {{ .title }}
+          {{- end -}}
+        </div>
+        {{- if or .event .place }}
+        <div class="conf-meta">{{ .event }}{{ if and .event .place }} · {{ end }}{{ .place }}</div>
+        {{- end }}
+        {{- with .host }}<div class="conf-meta">{{ . | safeHTML }}</div>{{ end }}
+        {{- with .authors }}<div class="conf-meta">{{ . | safeHTML }}</div>{{ end }}
+        {{- with $more }}
+        <div class="conf-also"><span class="conf-also-label">Also at</span>
+          {{- range $i, $m := . }}{{ if $i }}<span class="conf-sep">·</span>{{ end }}<span>{{ $m.event }}{{ with $m.place }} ({{ . }}){{ end }}{{ if $m.invited }} <em>invited</em>{{ end }}</span>{{ end }}
+        </div>
+        {{- end }}
+      </div>
+      <div class="conf-tags">
+        {{- if eq .type "seminar" }}<span class="conf-pill conf-pill-seminar">Seminar</span>{{ end -}}
+        {{- if eq .type "poster" }}<span class="conf-pill conf-pill-poster">{{ with .badge }}{{ . }}{{ else }}Poster{{ end }}</span>{{ end -}}
+        {{- if .invited }}<span class="conf-pill conf-pill-invited">Invited</span>{{ end -}}
+      </div>
+    </article>
+  {{- end }}
+    </section>
+    <p id="conf-empty" class="conf-empty" hidden>No presentations match your search.</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  const root = document.querySelector('.conf-page');
+  if (!root || root.dataset.ready) return;
+  root.dataset.ready = 'true';
+  const search = root.querySelector('#conf-search');
+  const chips = Array.from(root.querySelectorAll('.conf-chip'));
+  const rows = Array.from(root.querySelectorAll('.conf-row'));
+  const years = Array.from(root.querySelectorAll('.conf-year'));
+  const empty = root.querySelector('#conf-empty');
+  let active = null;
+
+  function update() {
+    const q = search.value.trim().toLowerCase();
+    let total = 0;
+    rows.forEach(r => {
+      const okText = (r.dataset.search || '').includes(q);
+      const okType = !active || (active === 'invited' ? r.dataset.invited === 'true' : r.dataset.type === active);
+      const show = okText && okType;
+      r.style.display = show ? '' : 'none';
+      if (show) total++;
+    });
+    years.forEach(y => {
+      const any = Array.from(y.querySelectorAll('.conf-row')).some(r => r.style.display !== 'none');
+      y.style.display = any ? '' : 'none';
+    });
+    empty.hidden = total !== 0;
+  }
+
+  chips.forEach(c => c.addEventListener('click', () => {
+    active = (active === c.dataset.filter) ? null : c.dataset.filter;
+    chips.forEach(x => x.setAttribute('aria-pressed', x.dataset.filter === active ? 'true' : 'false'));
+    update();
+  }));
+  search.addEventListener('input', update);
+})();
+</script>

@@ -207,81 +207,146 @@
   .pub-controls { position: static; }
 }
 
-
-// 9) Page Conferences : cartes et statistiques
-.conf-stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1rem;
-  margin: 1.5rem 0 2rem;
-}
-.conf-stat {
+// 10) Page Conferences : filtres, années à droite, lignes compactes
+.conf-controls {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: stretch;
+  margin: 1.5rem 0 1.75rem;
+}
+.conf-chip {
+  display: inline-flex;
   align-items: center;
-  padding: 1rem;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
+  gap: 6px;
+  padding: 6px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 999px;
   background: #fff;
-}
-.conf-stat-num {
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1.1;
-  color: #2d96bd;
-}
-.conf-stat-label {
-  margin-top: 0.25rem;
-  font-size: 0.85rem;
-  color: #6b7280;
-  text-align: center;
-}
+  color: inherit;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
 
-.conf-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  margin: 1rem 0 2.5rem;
-}
-.conf-item {
-  padding: 0.85rem 1.1rem;
-  border: 1px solid #e5e7eb;
-  border-left: 4px solid #2d96bd;
-  border-radius: 10px;
-  background: #fff;
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
-
-  &:hover {
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-    transform: translateY(-1px);
+  b { font-weight: 600; }
+  &:hover { border-color: #9ca3af; }
+  &[aria-pressed="true"] {
+    background: #1f2937;
+    border-color: #1f2937;
+    color: #fff;
   }
 }
+.conf-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.conf-dot-oral { background: #2d96bd; }
+.conf-dot-seminar { background: #2f9e6f; }
+.conf-dot-poster { background: #d98e1f; }
+.conf-dot-invited { background: #7c5cc4; }
+
+.conf-search {
+  flex: 1 1 180px;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #fff;
+  margin: 0;
+
+  input {
+    flex: 1;
+    width: 100%;
+    min-width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 8px 0;
+    font-size: 1rem;
+    box-shadow: none;
+  }
+}
+
+.conf-year { margin-bottom: 1.75rem; }
+.conf-year-head {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 2px solid #2d96bd;
+  padding-bottom: 4px;
+  margin-bottom: 0.4rem;
+
+  span {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #2d96bd;
+  }
+}
+
+.conf-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0.65rem 0 0.65rem 0.9rem;
+  border-bottom: 1px solid #eee;
+  border-left: 3px solid #2d96bd;
+  border-radius: 0;
+}
+.conf-row-seminar { border-left-color: #2f9e6f; }
+.conf-row-poster { border-left-color: #d98e1f; }
+
+.conf-body { flex: 1; min-width: 0; }
 .conf-title {
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.35;
 }
-.conf-tag {
-  display: inline-block;
-  margin-left: 0.6rem;
-  padding: 0.05rem 0.55rem;
-  border-radius: 999px;
-  background: #e8f4f9;
-  color: #2d96bd;
-  font-size: 0.72rem;
-  font-weight: 600;
-  vertical-align: middle;
-  white-space: nowrap;
-}
-.conf-event {
-  margin-top: 0.25rem;
-  font-size: 0.95rem;
+.conf-ext {
+  margin-left: 4px;
+  font-size: 0.8em;
+  opacity: 0.7;
 }
 .conf-meta {
-  margin-top: 0.2rem;
-  font-size: 0.82rem;
+  margin-top: 2px;
+  font-size: 0.88rem;
   color: #6b7280;
 }
-.conf-sep {
-  margin: 0 0.4rem;
+.conf-also {
+  margin-top: 4px;
+  font-size: 0.85rem;
+  color: #6b7280;
+
+  em { font-style: normal; color: #7c5cc4; }
 }
+.conf-also-label {
+  margin-right: 6px;
+  font-weight: 600;
+  color: #4b5563;
+}
+.conf-sep { margin: 0 6px; }
+
+.conf-tags {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  flex: none;
+}
+.conf-pill {
+  display: inline-block;
+  padding: 1px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.conf-pill-invited { background: #efeafa; color: #6a49b8; }
+.conf-pill-seminar { background: #e3f4ec; color: #237a55; }
+.conf-pill-poster { background: #fbf0dc; color: #a86a0f; }
+.conf-empty { color: #6b7280; margin-top: 1rem; }
 

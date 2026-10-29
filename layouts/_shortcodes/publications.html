@@ -3,27 +3,19 @@
 
 <!-- Conteneur global totalement isolé pour éviter tout débordement CSS -->
 <div class="pub-page" style="display: block; width: 100%; clear: both; float: none; position: relative; margin-top: 20px;">
-  
-  <div class="pub-intro" style="display: block; width: 100%; margin-bottom: 20px; clear: both;">
-    <div class="pub-stats" style="display: flex; gap: 15px; margin-bottom: 20px;">
+
+  <!-- Cases de statistiques + barre de recherche sur une seule ligne -->
+  <div class="pub-intro" style="display: block; width: 100%; margin-bottom: 25px; clear: both;">
+    <div class="pub-stats" style="display: flex; flex-wrap: wrap; gap: 15px; align-items: stretch;">
       <div class="pub-stat"><strong>{{ len $items }}</strong><span>References</span></div>
       <div class="pub-stat"><strong>{{ len (where $items "status" "Submitted") }}</strong><span>Submitted</span></div>
       <div class="pub-stat"><strong>2014–2026</strong><span>Research period</span></div>
-    </div>
-  </div>
 
-  <div class="pub-controls" style="display: block; width: 100%; margin-bottom: 25px; clear: both;">
-    <label class="pub-search-wrap" for="pub-search" style="display: block; margin-bottom: 10px;">
-      <span aria-hidden="true">⌕</span>
-      <input id="pub-search" type="search" placeholder="Search title, author, year or keyword…" autocomplete="off" style="width: 100%; padding: 8px;">
-    </label>
-    <div class="pub-control-bottom" style="display: flex; justify-content: space-between; align-items: center;">
-      <span id="pub-count" aria-live="polite">{{ len $items }} publications</span>
-      <select id="pub-filter" aria-label="Filter publications">
-        <option value="all">All publications</option>
-        <option value="published">Published</option>
-        <option value="submitted">Submitted</option>
-      </select>
+      <!-- La barre prend tout l'espace restant et la même hauteur que les cases -->
+      <label class="pub-search-wrap" for="pub-search" style="flex: 1 1 220px; min-width: 0; display: flex; align-items: center; gap: 8px; box-sizing: border-box; padding: 0 14px; border: 1px solid #ddd; border-radius: 8px; background: #fff;">
+        <span aria-hidden="true">⌕</span>
+        <input id="pub-search" type="search" placeholder="Search title, author, year or keyword…" autocomplete="off" style="flex: 1; width: 100%; min-width: 0; border: none; outline: none; background: transparent; padding: 8px 0; font-size: 1rem; box-shadow: none;">
+      </label>
     </div>
   </div>
 
@@ -94,9 +86,7 @@
   if (!root || root.dataset.ready) return;
   root.dataset.ready = 'true';
   const search = root.querySelector('#pub-search');
-  const filter = root.querySelector('#pub-filter');
   const itemsAll = Array.from(root.querySelectorAll('.pub-item'));
-  const count = root.querySelector('#pub-count');
   const empty = root.querySelector('#pub-empty');
 
   function update() {
@@ -104,18 +94,14 @@
     let visibleTotal = 0;
 
     itemsAll.forEach(item => {
-      const matchesText = (item.dataset.search || '').toLowerCase().includes(q);
-      const matchesStatus = filter.value === 'all' || item.dataset.status === filter.value;
-      const show = matchesText && matchesStatus;
+      const show = (item.dataset.search || '').toLowerCase().includes(q);
       item.style.display = show ? 'block' : 'none';
       if (show) visibleTotal++;
     });
 
-    count.textContent = visibleTotal + (visibleTotal === 1 ? ' publication' : ' publications');
     empty.hidden = visibleTotal !== 0;
   }
 
   search.addEventListener('input', update);
-  filter.addEventListener('change', update);
 })();
 </script>
