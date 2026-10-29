@@ -1,0 +1,394 @@
+# Données des conférences. Une entrée par exposé.
+# type : oral | seminar | poster   ·   year : laisser vide si inconnue (affichée sous « — »)
+# sortkey : ne pas modifier à la main sauf pour réordonner (année*1000 + rang)
+
+- type: "oral"
+  year: 2026
+  sortkey: 2026999
+  title: "Atomistic simulations using machine-learning interaction potentials"
+  event: "SimPart Day"
+  place: "Montpellier, France"
+  invited: true
+
+- type: "oral"
+  year: 2026
+  sortkey: 2026997
+  title: "Machine-learning approaches for nanoparticle crystallization"
+  link: "https://gdr-lille-2026.sciencesconf.org/"
+  event: "9èmes Rencontres scientifiques du GDR SolvATE"
+  place: "Lille, France"
+  invited: true
+  also:
+    - event: "Computational and data-driven methods for nanoalloy simulation and characterisation"
+      place: "Orléans, France"
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSeUWg-X7toL_S_g3Z_uopay2_L7-zzN010dKMr9p2Gl3k5d-Q/viewform"
+      invited: true
+    - event: "European Training School ASTEM2026 : Advanced Simulations Tools for Epitaxial Materials"
+      place: "Rennes, France"
+      link: "https://astem2026.sciencesconf.org/"
+      invited: true
+    - event: "Journées de chimie théorique du pôle Nord/IdF de ThéMoSiA"
+      place: "Paris, France"
+      link: "https://jct-nordidf2025.sciencesconf.org/"
+
+- type: "oral"
+  year: 2026
+  sortkey: 2026993
+  title: "Machine-learning pour modéliser la nucléation dans les nanoparticules"
+  event: "École thématique « L’or nanométrique : des propriétés fondamentales aux applications multi-échelles »"
+  place: "Cargèse, France"
+  link: "https://ecole2026.sciencesconf.org/"
+  invited: true
+  also:
+    - event: "Journées CRISTECH"
+      link: "https://cristech.cnrs.fr/les-20-ans-du-reseau-11eme-edition-journees-nationales-cristech-14-16-octobre-2026-angers/"
+      place: "Angers, France"
+      invited: true
+
+
+
+
+- type: "seminar"
+  year: 2026
+  sortkey: 2026992
+  title: "Machine-learning approaches for nanoparticle crystallization"
+  event: "Laboratoire Interdisciplinaire sur l’Organisation Nanometrique et Supramoléculaire"
+  place: "Gif-sur-Yvette, France"
+  host: "Invited by <a href='https://iramis.cea.fr/pisp/david-carriere/'>David Carriere</a>"
+
+- type: "oral"
+  year: 2025
+  sortkey: 2025991
+  title: "Challenges of tracking crystal features in complex materials"
+  event: "CECAM Advancing simulation, analysis and prediction of complex chemical systems using modern chemical graph theory and computational topology"
+  place: "Lausanne, Switzerland"
+  link: "https://www.cecam.org/workshop-details/advancing-simulation-analysis-and-prediction-of-complex-chemical-systems-using-modern-chemical-graph-theory-and-computational-topology-1389"
+  invited: true
+
+- type: "oral"
+  year: 2025
+  sortkey: 2025990
+  title: "Harvesting nucleating structures in first order transitions"
+  event: "CECAM Data-driven, low-dimensional, and generative models for molecular and materials discovery"
+  place: "Paris, France"
+  link: "https://cecam.pme.uchicago.edu/data-driven-low-dimensional-and-generative-models-for-molecular-and-materials-discovery-and-design/"
+  invited: true
+
+- type: "oral"
+  year: 2025
+  sortkey: 2025989
+  title: "Machine-learning pour modéliser la nucléation dans les nanoparticules"
+  event: "11ème atelier IRN Nanomateriaux Multifonctionnels Contrôlés"
+  place: "Montréal, Canada"
+  link: "https://www.gdri-nanomateriaux.org/11eme-atelier-a-montreal/"
+  invited: true
+
+- type: "oral"
+  year: 2024
+  sortkey: 2024988
+  title: "Exploiting linear models for transferability and long-range interactions"
+  event: "CECAM Machine Learning Interatomic Potentials and Accessible Databases"
+  place: "Grenoble, France"
+  link: "https://mecanano-wg4-24.sciencesconf.org/"
+  invited: true
+  also:
+    - event: "Machine Learning in Chemical and Materials Sciences"
+      place: "Online"
+    - event: "Journées plénières GDR IAMAT"
+      place: "Toulouse, France"
+    - event: "Workshop on Machine Learning Force Fields"
+      place: "Chicago, USA"
+      invited: true
+
+- type: "oral"
+  year: 2024
+  sortkey: 2024987
+  title: "Atomistic simulations using machine-learning interaction potentials"
+  event: "Machine Learning for Micromechanics MecaNano COST"
+  place: "Leuven, Belgium"
+  invited: true
+
+- type: "seminar"
+  year: 2024
+  sortkey: 2024986
+  title: "Probing nucleation mechanisms in nanoparticles from nanoalloys to nanoxide"
+  event: "Laboratoire de Physique de la Matière Condensée"
+  place: "Palaiseau, France"
+  host: "Invited by <a href='https://scholar.google.fr/citations?user=7Ckb4EwAAAAJ&hl=fr'>Thomas Philippe</a>"
+
+- type: "oral"
+  year: 2023
+  sortkey: 2023985
+  title: "Isolating crystal nucleation in nanoparticles using rare event sampling methods"
+  event: "International Meeting on Nanoalloys"
+  place: "Orléans, France"
+
+- type: "seminar"
+  year: 2023
+  sortkey: 2023984
+  title: "Probing nucleation mechanisms in nanoparticles from nanoalloys to nanoxide"
+  event: "Institute Charles Gerhardt"
+  place: "Montpellier, France"
+  host: "Invited by <a href='https://scholar.google.com/citations?hl=en&user=NFjdLEcAAAAJ&view_op=list_works&sortby=pubdate'>Hazar Guesmi</a>"
+
+- type: "seminar"
+  year: 2023
+  sortkey: 2023983
+  title: "Nucleation and growth in nanoparticles: Machine-learning assisted simulations"
+  event: "Institut d’électronique de microélectronique et de nanotechnologie"
+  place: "Lille, France"
+  host: "Invited by Dr. <a href='https://scholar.google.fr/citations?user=MgCfKBkAAAAJ&hl=fr'>Bruno Grandidier</a>"
+
+- type: "oral"
+  year: 2022
+  sortkey: 2022982
+  title: "Nucléation et croissance des nanoparticules: Apport des simulations et du machine-learning"
+  event: "GDR Nanostructures Inorganiques par chimie en solution"
+  place: "Paris, France"
+  link: "https://gdr-nino.cnrs.fr/reunion-de-lancement/"
+  invited: true
+
+- type: "oral"
+  year: 2022
+  sortkey: 2022981
+  title: "Observing the birth of crystals through numerical simulations"
+  event: "CECAM “Machine Learning and Quantum Computing for Quantum Molecular Dynamics”"
+  place: "Online"
+  invited: true
+  also:
+    - event: "CECAM “Atomistic simulations of interfacial processes in energy materials”"
+      place: "Paris, France"
+      invited: true
+    - event: "GDR IAMAT"
+      place: "Paris, France"
+    - event: "NanoX/Fermi days"
+      place: "Toulouse, France"
+
+- type: "seminar"
+  year: 2022
+  sortkey: 2022980
+  title: "Nucleation and growth in nanoparticles: Machine-learning assisted simulations"
+  event: "Laboratoire de Physique et Chimie des Nano-Objets"
+  place: "Toulouse, France"
+  host: "Invited by Dr. <a href='https://scholar.google.fr/citations?user=gbybq_UAAAAJ&hl=fr'>Simon Tricard</a>"
+
+- type: "seminar"
+  year: 2022
+  sortkey: 2022979
+  title: "Observing the birth of crystals through numerical simulations"
+  event: "Laboratoire de Physique des Lasers, Atomes et Molécules"
+  place: "Lille, France"
+  host: "Invited by Dr. <a href='https://scholar.google.com/citations?user=ndQmhqwAAAAJ&hl=en'>Valérie Vallet</a>"
+
+- type: "oral"
+  year: 2021
+  sortkey: 2021978
+  title: "Out-of-equilibrium polymorph selection in nanoparticle freezing"
+  event: "CECAM “Multi-approach modeling of alloy nanoparticles”"
+  place: "Online"
+  also:
+    - event: "Modsim Conference series on Nanoalloys"
+      place: "Online"
+
+- type: "oral"
+  year: 2021
+  sortkey: 2021977
+  title: "Zinc oxide crystallization modeled with machine-learning interatomic potential"
+  event: "CECAM “Local structure meets machine learning in soft matter systems”"
+  place: "Online"
+  link: "https://www.cecam.org/workshop-details/1028"
+  invited: true
+
+- type: "seminar"
+  year: 2021
+  sortkey: 2021976
+  title: "Observing the birth of crystals through numerical simulations"
+  event: "Laboratoire Ondes et Matière d’Aquitaine"
+  place: "Bordeaux, France"
+  host: "Invited by <a href='https://www.loma.cnrs.fr/antoine-aubret/'>Dr. Antoine Aubret</a>"
+
+- type: "seminar"
+  year: 2021
+  sortkey: 2021975
+  title: "The Φ-LassoLars method for Machine-learning interaction potentials"
+  event: "Unité Matériaux et Transformations"
+  place: "Lille, France"
+  host: "Invited by <a href='https://pierrehirel.info/?lang=fr'>Dr. Pierre Hirel</a>"
+
+- type: "poster"
+  year: 2021
+  sortkey: 2021974
+  title: "Out-of-equilibrium polymorph selection in nanoparticle freezing"
+  event: "International Research Network NanoAlloys"
+  authors: "J. Amodeo, F. Pietrucci, <strong>J. Lam</strong>"
+
+- type: "oral"
+  year: 2020
+  sortkey: 2020973
+  title: "Gold-Iron interactions in nanoparticles modeled by physically motivated machine-learning potential"
+  event: "Journées “Théorie, Modélisation et Simulations”"
+  place: "Online"
+
+- type: "seminar"
+  year: 2020
+  sortkey: 2020972
+  title: "Potentiel d’interaction par machine-learning: Approche linéaire et régression sous contrainte"
+  event: "CEA DAM"
+  place: "Bruyères-le-Châtel, France"
+  host: "Invited by <a href='https://scholar.google.fr/citations?user=5oO_F8oAAAAJ&hl=fr'>Dr. Marc Torrent</a>"
+
+- type: "oral"
+  year: 2019
+  sortkey: 2019971
+  title: "Machine-learning force fields based on linearized potential"
+  event: "Progresses and challenges in modeling activated phenomena"
+  place: "Toulouse, France"
+
+- type: "seminar"
+  year: 2019
+  sortkey: 2019970
+  title: "Chaotic bottom-up synthesis of nanomaterials: Numerical simulations and Machine-learning force fields based on linearized potentials"
+  event: "Université du Luxembourg"
+  place: "Luxembourg"
+  host: "Invited by <a href='https://www.tcpunilu.com/'>Pr. Alexander Tkatchenko</a>"
+
+- type: "poster"
+  year: 2019
+  sortkey: 2019969
+  title: "Crystallization in nanopore, coarse-graining the solvent-mediated forces"
+  event: "Mainz Materials Simulation Days"
+  authors: "J. Lam, P. Grosfils and J. F. Lutsko"
+
+- type: "oral"
+  year: 2018
+  sortkey: 2018968
+  title: "Crystallization in nanopore, coarse-graining the solvent-mediated forces"
+  event: "Réunion plénière du GdR ModMat"
+  place: "Paris, France"
+  link: "https://drive.google.com/open?id=1h2DjBC0KM5JYthBOqAoy4kP-YDOibIJQ"
+  also:
+    - event: "Atelier “Exploration du Paysage Energétique : Méthodes & Applications”"
+      place: "Toulouse, France"
+
+- type: "seminar"
+  year: 2018
+  sortkey: 2018967
+  title: "Role of surfaces and confinement in promoting exotic crystallization behaviors"
+  event: "Université Libre de Bruxelles"
+  place: "Brussels, Belgium"
+  host: "Invited by <a href='http://bscheid.ulb.ac.be/'>Pr. Benoit Scheid</a>"
+
+- type: "oral"
+  year: 2017
+  sortkey: 2017966
+  title: "Solute particle near a nanopore: influence of size and surface properties"
+  event: "Thermodynamic"
+  place: "Edinburgh, United Kingdom"
+  link: "https://drive.google.com/open?id=0ByDvmUwk6eLuUlplTDhwX3hGOXM"
+
+- type: "poster"
+  year: 2017
+  sortkey: 2017965
+  title: "Controlling nanocrystal polymorphism by means of droplet heterogeneous nucleation"
+  event: "Thermodynamic"
+  authors: "<strong>J. Lam</strong> and J. F. Lutsko"
+  link: "https://drive.google.com/open?id=0ByDvmUwk6eLuZjRsWmREWS1WbUU"
+
+- type: "seminar"
+  year: 2016
+  sortkey: 2016964
+  title: "Plasma spectroscopy and first-principle calculations as tools to probe nucleation events"
+  event: "Université Aix-Marseille"
+  place: "Marseille, France"
+  host: "Invited by <a href='http://www.lp3.univ-mrs.fr/'>Dr. Jorg Herman</a>"
+
+- type: "poster"
+  year: 2016
+  sortkey: 2016963
+  title: "Glass formation and crystallization of phase change materials: A machine learning approach for the interaction potential"
+  event: "26th IUPAP International conference on Statistical Physics (StatPhys 2016)"
+  authors: "<strong>J. Lam</strong>, D. P. Tew, F. Turci and C. P. Royal"
+
+- type: "oral"
+  year: 2015
+  sortkey: 2015962
+  title: "Nucleation of nanoparticles: a microscopic approach based on quantum thermochemistry"
+  event: "Modélisation des Matériaux (ModMat)"
+  place: "Lyon, France"
+  link: "http://julienlam.fr/Orals/ModMat15.pdf"
+
+- type: "seminar"
+  year: 2015
+  sortkey: 2015961
+  title: "Nucleation from atomistic to colloidal approaches"
+  event: "Université Pierre et Marie Curie"
+  place: "Paris, France"
+  host: "Invited by <a href='http://www.insp.upmc.fr/-Oxydes-en-basses-dimensions-.html?lang=en'>Dr. Jacek Goniakowski</a>"
+
+- type: "seminar"
+  year: 2015
+  sortkey: 2015960
+  title: "Laser Ablation in Liquid: towards the comprehension of the growth processes"
+  event: "Université Libre de Bruxelles"
+  place: "Brussels, Belgium"
+  host: "Invited by <a href='http://lutsko.com/'>Dr. James Lutsko</a>"
+  also:
+    - event: "University of Bristol"
+      place: "Bristol, United Kingdom"
+      host: "Invited by <a href='http://www.bristoldynamics.com/'>Prof. Andrew Orr-Ewing</a>"
+    - event: "Universität Duisburg-Essen"
+      place: "Essen, Germany"
+      host: "Invited by <a href='https://www.uni-due.de/barcikowski/'>Prof. Stephan Barcikowski</a>"
+
+- type: "oral"
+  year: 2014
+  sortkey: 2014959
+  title: "On the use of Computational Chemistry to understand the Generation processes"
+  event: "EOS Conference on Advanced Nanoparticle Generation and Excitation by Lasers in Liquids"
+  place: "Matsuyama, Japan"
+  link: "http://julienlam.fr/Orals/Angel14o.pdf"
+
+- type: "seminar"
+  year: 2014
+  sortkey: 2014958
+  title: "Laser Ablation in Liquid: towards the comprehension of the growth processes"
+  event: "University of Kyoto"
+  place: "Kyoto, Japan"
+  host: "Invited by <a href='http://www.fm.ehcc.kyoto-u.ac.jp/'>Prof. Tetsuo Sakka</a>"
+
+- type: "poster"
+  year: 2014
+  sortkey: 2014957
+  title: "On the Local Thermodynamic Equilibrium: Discrepancy between the excitation temperature and the rotational temperature"
+  event: "8th International Conference on Laser Induced Breakdown Spectroscopy (LIBS 2014)"
+  authors: "<strong>J. Lam</strong>, V. Motto-Ros, A-R. Allouche, C. Dujardin, G. Ledoux, D. Amans"
+
+- type: "poster"
+  year: 2014
+  sortkey: 2014956
+  title: "On the use of Computational Chemistry to understand the Cluster Generation processes in Liquid"
+  event: "Journées LIBS France"
+  authors: "J. Lam, A-R. Allouche, C. Dujardin, G. Ledoux, D. Amans"
+
+- type: "poster"
+  year: 2014
+  sortkey: 2014955
+  title: "Challenges of Plasma Spectroscopy underwater: On the use of molecules and its consequences"
+  event: "EOS Conference on Advanced Nanoparticle Generation and Excitation by Lasers in Liquids (ANGEL 2014)"
+  authors: "<strong>J. Lam</strong>, V. Motto-Ros, C. Dujardin, G. Ledoux, D. Amans"
+
+- type: "oral"
+  year: 2013
+  sortkey: 2013954
+  title: "Spectroscopy during Laser Ablation in Liquid: A tool to understand the Growth Process"
+  event: "European Mediterranean Symposium on Laser Induced Breakdown Spectroscopy"
+  place: "Bari, Italy"
+  link: "http://julienlam.fr/Orals/EMSLIBS2013.pdf"
+
+- type: "poster"
+  year: 2013
+  sortkey: 2013953
+  title: "Plasma Spectroscopy during Laser Ablation in Liquid: A tool to understand the Growth Process"
+  event: "Conference On Laser Ablation (COLA 2013)"
+  authors: "<strong>J. Lam</strong>, A-R. Allouche, F. Chaput, M. Diouf, C. Dujardin, G. Ledoux, N. Mary, K. Masenelli-Varlot, V. Motto-Ros, and David Amans"
+  badge: "Best poster"

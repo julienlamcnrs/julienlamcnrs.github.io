@@ -1,18 +1,19 @@
 {{- $all := hugo.Data.conferences -}}
-{{- $sorted := sort $all "sortkey" "desc" -}}
+{{- /* Tri automatique : année décroissante, ordre du fichier conservé à année égale */ -}}
+{{- $items := slice -}}
+{{- range $i, $e := $all -}}
+  {{- $yy := int ($e.year | default 0) -}}
+  {{- $items = $items | append (merge (dict "k" (add (mul $yy 1000) (sub 999 $i))) $e) -}}
+{{- end -}}
+{{- $sorted := sort $items "k" "desc" -}}
 
 {{- $nOral := 0 -}}{{- $nInv := 0 -}}{{- $nSem := 0 -}}{{- $nPos := 0 -}}
 {{- range $all -}}
   {{- $more := .also | default slice -}}
-  {{- if eq .type "oral" -}}
-    {{- $nOral = add $nOral (add 1 (len $more)) -}}
-    {{- if .invited }}{{ $nInv = add $nInv 1 }}{{ end -}}
-    {{- range $more }}{{ if .invited }}{{ $nInv = add $nInv 1 }}{{ end }}{{ end -}}
-  {{- else if eq .type "seminar" -}}
-    {{- $nSem = add $nSem 1 -}}
-  {{- else -}}
-    {{- $nPos = add $nPos 1 -}}
-  {{- end -}}
+  {{- $n := add 1 (len $more) -}}
+  {{- if eq .type "oral" }}{{ $nOral = add $nOral $n }}{{ else if eq .type "seminar" }}{{ $nSem = add $nSem $n }}{{ else }}{{ $nPos = add $nPos $n }}{{ end -}}
+  {{- if .invited }}{{ $nInv = add $nInv 1 }}{{ end -}}
+  {{- range $more }}{{ if .invited }}{{ $nInv = add $nInv 1 }}{{ end }}{{ end -}}
 {{- end -}}
 
 <div class="conf-page">
@@ -30,7 +31,7 @@
   <div class="conf-list" id="conf-list">
   {{- $prev := "start" -}}
   {{- range $sorted -}}
-    {{- $y := .year | default 0 -}}
+    {{- $y := int (.year | default 0) -}}
     {{- $key := string $y -}}
     {{- if ne $key $prev -}}
       {{- if ne $prev "start" }}</section>{{ end }}
@@ -45,9 +46,10 @@
     {{- $s := printf "%s %s %s %v" .title (.event | default "") (.place | default "") $y -}}
     {{- with .host }}{{ $s = printf "%s %s" $s (. | plainify) }}{{ end -}}
     {{- with .authors }}{{ $s = printf "%s %s" $s (. | plainify) }}{{ end -}}
-    {{- range $more }}{{ $s = printf "%s %s %s" $s (.event | default "") (.place | default "") }}{{ end }}
+    {{- range $more }}{{ $s = printf "%s %s %s %v" $s (.event | default "") (.place | default "") (.year | default "") }}{{ end }}
 
     <article class="conf-row conf-row-{{ .type }}" data-type="{{ .type }}" data-invited="{{ if $anyInv }}true{{ else }}false{{ end }}" data-search="{{ $s | lower }}">
+      <div class="conf-head">
       <div class="conf-body">
         <div class="conf-title">
           {{- if .link -}}
@@ -61,17 +63,28 @@
         {{- end }}
         {{- with .host }}<div class="conf-meta">{{ . | safeHTML }}</div>{{ end }}
         {{- with .authors }}<div class="conf-meta">{{ . | safeHTML }}</div>{{ end }}
-        {{- with $more }}
-        <div class="conf-also"><span class="conf-also-label">Also at</span>
-          {{- range $i, $m := . }}{{ if $i }}<span class="conf-sep">·</span>{{ end }}<span>{{ $m.event }}{{ with $m.place }} ({{ . }}){{ end }}{{ if $m.invited }} <em>invited</em>{{ end }}</span>{{ end }}
-        </div>
-        {{- end }}
       </div>
       <div class="conf-tags">
         {{- if eq .type "seminar" }}<span class="conf-pill conf-pill-seminar">Seminar</span>{{ end -}}
         {{- if eq .type "poster" }}<span class="conf-pill conf-pill-poster">{{ with .badge }}{{ . }}{{ else }}Poster{{ end }}</span>{{ end -}}
         {{- if .invited }}<span class="conf-pill conf-pill-invited">Invited</span>{{ end -}}
       </div>
+      </div>
+      {{- with $more }}
+        <div class="conf-also">
+          <div class="conf-also-label">Also at</div>
+          {{- range $m := . }}
+          {{- $my := int ($m.year | default 0) }}
+          <div class="conf-also-item">
+            {{- if $m.link }}<a href="{{ $m.link }}" target="_blank" rel="noopener noreferrer">{{ $m.event }}<span class="conf-ext" aria-hidden="true">↗</span></a>{{ else }}{{ $m.event }}{{ end -}}
+            {{- with $m.place }} · {{ . }}{{ end -}}
+            {{- if and (gt $my 0) (ne $my $y) }} · {{ $my }}{{ end -}}
+            {{- with $m.host }} · {{ . | safeHTML }}{{ end -}}
+            {{- if $m.invited }}<span class="conf-pill conf-pill-invited conf-pill-sm">Invited</span>{{ end -}}
+          </div>
+          {{- end }}
+        </div>
+        {{- end }}
     </article>
   {{- end }}
     </section>
