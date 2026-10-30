@@ -1,13 +1,21 @@
 // ===== Personnalisation du thème LoveIt =====
 
-// 1) Masquer la ligne « auteur / published on date » (accueil et pages)
+// Couleurs réutilisées
+$accent:   #2d96bd;
+$muted:    #6b7280;
+$oral:     $accent;
+$seminar:  #2f9e6f;
+$poster:   #d98e1f;
+$invited:  #7c5cc4;
+
+// 1) Masquer la ligne « auteur / published on date »
 .post-meta,
 .post-author,
 .post-publish {
   display: none !important;
 }
 
-// 2) Supprimer le bouton clair/sombre (ordinateur et mobile)
+// 2) Supprimer le bouton clair/sombre
 .theme-switch {
   display: none !important;
 }
@@ -21,30 +29,26 @@
   text-align: center;
 }
 
-// 4) Page People : tableaux sans en-tête vide, photos de taille fixe
-.page .content table thead {
-  display: none;
-}
-.page .content table td img {
-  width: 90px;
-  max-width: 90px;
-  height: auto;
-  margin: 0;
-}
-.page .content table td:first-child {
-  width: 110px;
+// 4) Images « à la une » des news : centrées, taille limitée
+.summary .featured-image-preview,
+.single .featured-image {
   text-align: center;
-  vertical-align: middle;
 }
-
-// 5) Images « à la une » des news : taille limitée et centrées
-//    (aperçu sur l'accueil)
+.summary .featured-image-preview img,
+.single .featured-image img {
+  display: block;
+  width: auto !important;
+  height: auto !important;
+  max-width: 100%;
+  margin: 0 auto;
+  object-fit: contain;
+}
+// aperçu sur l'accueil
 .summary .featured-image-preview {
   width: 100%;
   height: auto !important;
   padding: 0 !important;
-  margin: 0 0 1rem 0;
-  text-align: center;
+  margin: 0 0 1rem;
   overflow: visible;
 
   a {
@@ -53,60 +57,29 @@
   }
   img {
     position: static !important;
-    display: block;
-    width: auto !important;
-    height: auto !important;
-    max-width: 100%;
     max-height: 260px;
-    margin: 0 auto;
-    object-fit: contain;
   }
 }
-
-//    (en haut de la page d'une news)
-.single .featured-image {
-  text-align: center;
-
-  img {
-    display: block;
-    width: auto !important;
-    height: auto !important;
-    max-width: 100%;
-    max-height: 400px;
-    margin: 0 auto;
-    object-fit: contain;
-  }
+// en haut de la page d'une news
+.single .featured-image img {
+  max-height: 400px;
 }
 
-// 6) Accueil : ordre d'affichage = titre (date), puis image, puis texte
+// 5) Accueil : une news = titre (la date), image, texte.
+//    L'ordre est défini dans layouts/summary.html.
 .summary {
   display: flex;
   flex-direction: column;
+  border-bottom: 2px solid #ccc !important;
 
-  > * {
-    order: 3;
-  }
   > .single-title {
-    order: 1;
     display: block !important;
-    margin: 0 0 0.75rem 0;
+    margin: 0 0 0.75rem;
     font-size: 1.5rem;
   }
-  > .featured-image-preview {
-    order: 2;
-  }
-  > .post-footer {
-    order: 4;
-  }
 }
 
-.summary {
-  border-bottom: 2px solid #ccc !important;
-}
-
-
-
-// 8) Page People : grille de cartes
+// 6) Page People : grille de cartes
 .people-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -148,7 +121,7 @@
   margin-top: 0.1rem;
   font-size: 0.85rem;
   font-weight: 600;
-  color: #2d96bd;
+  color: $accent;
 }
 .person-topic {
   margin-top: 0.5rem;
@@ -160,10 +133,10 @@
   margin-top: 0.35rem;
   font-size: 0.82rem;
   line-height: 1.35;
-  color: #6b7280;
+  color: $muted;
 }
 
-// Add this block to css/_custom.scss (keep your existing custom styles).
+// 7) Page Publications
 .pub-page {
   --pub-accent: #267c9b;
   --pub-line: rgba(127, 140, 150, .25);
@@ -207,9 +180,7 @@
   .pub-controls { position: static; }
 }
 
-
-
-// 10) Page Conferences : filtres, années à droite, lignes compactes
+// 8) Page Conferences : filtres, années à droite, lignes compactes
 .conf-controls {
   display: flex;
   flex-wrap: wrap;
@@ -230,7 +201,7 @@
   line-height: 1.2;
   cursor: pointer;
   transition: background 0.15s ease, border-color 0.15s ease;
- 
+
   b { font-weight: 600; }
   &:hover { border-color: #9ca3af; }
   &[aria-pressed="true"] {
@@ -243,13 +214,12 @@
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  display: inline-block;
 }
-.conf-dot-oral { background: #2d96bd; }
-.conf-dot-seminar { background: #2f9e6f; }
-.conf-dot-poster { background: #d98e1f; }
-.conf-dot-invited { background: #7c5cc4; }
- 
+.conf-dot-oral     { background: $oral; }
+.conf-dot-seminar  { background: $seminar; }
+.conf-dot-poster   { background: $poster; }
+.conf-dot-invited  { background: $invited; }
+
 .conf-search {
   flex: 1 1 180px;
   min-width: 0;
@@ -261,7 +231,7 @@
   border-radius: 8px;
   background: #fff;
   margin: 0;
- 
+
   input {
     flex: 1;
     width: 100%;
@@ -274,35 +244,37 @@
     box-shadow: none;
   }
 }
- 
+
 .conf-year { margin-bottom: 1.75rem; }
 .conf-year-head {
   display: flex;
   justify-content: flex-end;
-  border-bottom: 2px solid #2d96bd;
+  border-bottom: 2px solid $accent;
   padding-bottom: 4px;
   margin-bottom: 0.4rem;
- 
+
   span {
     font-size: 1.3rem;
     font-weight: 700;
     line-height: 1;
-    color: #2d96bd;
+    color: $accent;
   }
 }
- 
+
 .conf-row {
+  padding: 0.65rem 0 0.65rem 0.9rem;
+  border-bottom: 1px solid #eee;
+  border-left: 3px solid $oral;
+}
+// titre + lieu principal à gauche, pastilles centrées sur ce bloc uniquement
+.conf-head {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 0.65rem 0 0.65rem 0.9rem;
-  border-bottom: 1px solid #eee;
-  border-left: 3px solid #2d96bd;
-  border-radius: 0;
 }
-.conf-row-seminar { border-left-color: #2f9e6f; }
-.conf-row-poster { border-left-color: #d98e1f; }
- 
+.conf-row-seminar { border-left-color: $seminar; }
+.conf-row-poster  { border-left-color: $poster; }
+
 .conf-body { flex: 1; min-width: 0; }
 .conf-title {
   font-weight: 600;
@@ -316,12 +288,12 @@
 .conf-meta {
   margin-top: 2px;
   font-size: 0.88rem;
-  color: #6b7280;
+  color: $muted;
 }
 .conf-also {
   margin-top: 6px;
   font-size: 0.85rem;
-  color: #6b7280;
+  color: $muted;
 }
 .conf-also-label {
   font-weight: 600;
@@ -331,7 +303,7 @@
   padding-left: 0.75rem;
   line-height: 1.45;
 }
- 
+
 .conf-tags {
   display: flex;
   flex-direction: column;
@@ -348,14 +320,16 @@
   white-space: nowrap;
 }
 .conf-pill-invited { background: #efeafa; color: #6a49b8; }
-// Même pastille, en plus petit, dans les lignes « Also at »
+.conf-pill-seminar { background: #e3f4ec; color: #237a55; }
+.conf-pill-poster  { background: #fbf0dc; color: #a86a0f; }
+// même pastille, en plus petit, dans les lignes « Also at »
 .conf-pill-sm {
   padding: 0 8px;
   margin-left: 6px;
   font-size: 0.7rem;
   vertical-align: 1px;
 }
-.conf-pill-seminar { background: #e3f4ec; color: #237a55; }
-.conf-pill-poster { background: #fbf0dc; color: #a86a0f; }
-.conf-empty { color: #6b7280; margin-top: 1rem; }
-
+.conf-empty {
+  margin-top: 1rem;
+  color: $muted;
+}
