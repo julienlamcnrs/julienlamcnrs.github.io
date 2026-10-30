@@ -6,6 +6,15 @@
 - type: "oral"
   year: 2026
   sortkey: 2026999
+  title: "Exploiting linear models for transferability and long-range interactions"
+  event: "Journées de la matière condensée"
+  place: "Toulouse, France"
+  link: "https://jmc2026.sciencesconf.org/"
+  invited: true
+
+- type: "oral"
+  year: 2026
+  sortkey: 2026999
   title: "Atomistic simulations using machine-learning interaction potentials"
   event: "SimPart Day"
   place: "Montpellier, France"
@@ -46,6 +55,9 @@
     - event: "Journées de chimie théorique du pôle Nord/IdF de ThéMoSiA"
       place: "Paris, France"
       link: "https://jct-nordidf2025.sciencesconf.org/"
+    - event: "Journées de la matière condensée"
+      place: "Toulouse, France"
+      link: "https://jmc2026.sciencesconf.org/"
 
 - type: "seminar"
   year: 2026
