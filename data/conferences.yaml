@@ -19,6 +19,12 @@
   link: "https://cristech.cnrs.fr/les-20-ans-du-reseau-11eme-edition-journees-nationales-cristech-14-16-octobre-2026-angers/"
   place: "Angers, France"
   invited: true
+  also:
+    - event: "École thématique « L’or nanométrique : des propriétés fondamentales aux applications multi-échelles »"
+      place: "Cargèse, France"
+      link: "https://ecole2026.sciencesconf.org/"
+      invited: true
+
 
 - type: "oral"
   year: 2026
@@ -40,15 +46,6 @@
     - event: "Journées de chimie théorique du pôle Nord/IdF de ThéMoSiA"
       place: "Paris, France"
       link: "https://jct-nordidf2025.sciencesconf.org/"
-
-- type: "oral"
-  year: 2026
-  sortkey: 2026993
-  title: "Machine-learning pour modéliser la nucléation dans les nanoparticules"
-  event: "École thématique « L’or nanométrique : des propriétés fondamentales aux applications multi-échelles »"
-  place: "Cargèse, France"
-  link: "https://ecole2026.sciencesconf.org/"
-  invited: true
 
 - type: "seminar"
   year: 2026

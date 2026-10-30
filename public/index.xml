@@ -1,26 +1,26 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Julien Lam&#39;s homepage</title>
-        <link>http://localhost:50385/</link>
+        <link>http://localhost:1313/</link>
         <description>Julien Lam, permanent CNRS researcher at UMET (Lille)</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 01 Oct 2026 00:00:00 &#43;0000</lastBuildDate>
-            <atom:link href="http://localhost:50385/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Oct 1st, 2026</title>
-    <link>http://localhost:50385/posts/2026-10-01-news/</link>
+    <link>http://localhost:1313/posts/2026-10-01-news/</link>
     <pubDate>Thu, 01 Oct 2026 00:00:00 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>http://localhost:50385/posts/2026-10-01-news/</guid>
+    <guid>http://localhost:1313/posts/2026-10-01-news/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/PhotosAfafGilberto.png" referrerpolicy="no-referrer">
             </div><p>This year, the group is expanding with two new recruits. We are happy to welcome Afaf Hrif as PhD student co-supervised with Mathieu Guerain and Gilberto Alou as postdoctoral researcher.</p>]]></description>
 </item>
 <item>
     <title>May 26th, 2026</title>
-    <link>http://localhost:50385/posts/2026-05-26-news/</link>
+    <link>http://localhost:1313/posts/2026-05-26-news/</link>
     <pubDate>Tue, 26 May 2026 00:00:00 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>http://localhost:50385/posts/2026-05-26-news/</guid>
+    <guid>http://localhost:1313/posts/2026-05-26-news/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/2026/05/screenshot-2026-05-26-at-11.04.32.png" referrerpolicy="no-referrer">
             </div><p>Very excited to promote our most recent paper where we use our PLIP+Q MLIP to study growth mechanisms in ZnO nanoparticle following atom by atom deposition. We show that (1) our simple approach for long-range interactions remains reliable for such complex simulation and (2) growth can induce phase transition from a metastable state.</p>
@@ -28,20 +28,20 @@
 </item>
 <item>
     <title>May 1st, 2026</title>
-    <link>http://localhost:50385/posts/2026-05-01-news/</link>
+    <link>http://localhost:1313/posts/2026-05-01-news/</link>
     <pubDate>Fri, 01 May 2026 00:00:00 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>http://localhost:50385/posts/2026-05-01-news/</guid>
+    <guid>http://localhost:1313/posts/2026-05-01-news/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/2026/05/caro-1-w400.png" referrerpolicy="no-referrer">
             </div><p>Very happy to welcome <a href="https://www.researchgate.net/profile/Caroline-Traisnel" target="_blank" rel="noopener noreffer ">Dr. Caroline Traisnel</a> as a postdoctoral researcher in our team. She is an expert in DFT modelling and will focus on building a DFT-accurate database for ZnxCuyO together with our long term collaborator and friend <a href="https://scholar.google.com/citations?user=wRyFdmIAAAAJ&amp;hl=fr" target="_blank" rel="noopener noreffer ">Dr. Jacek Goniakowski</a>.</p>]]></description>
 </item>
 <item>
     <title>April 15th, 2026</title>
-    <link>http://localhost:50385/posts/2026-04-15-news/</link>
+    <link>http://localhost:1313/posts/2026-04-15-news/</link>
     <pubDate>Wed, 15 Apr 2026 00:00:00 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>http://localhost:50385/posts/2026-04-15-news/</guid>
+    <guid>http://localhost:1313/posts/2026-04-15-news/</guid>
     <description><![CDATA[<p>I recently had the pleasure of speaking at the <a href="https://ecole2026.sciencesconf.org/?lang=fr" target="_blank" rel="noopener noreffer ">summer school organized by the GDR Or-Nano</a> in the beautiful setting of the Institut d’Études Scientifiques in Cargèse.</p>
 <p>For those who were unable to make the trip to Corsica but are interested, my entire presentation was filmed. The video is now available on YouTube!</p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -50,10 +50,10 @@
 </item>
 <item>
     <title>March 1st, 2026</title>
-    <link>http://localhost:50385/posts/2026-03-01-news/</link>
+    <link>http://localhost:1313/posts/2026-03-01-news/</link>
     <pubDate>Sun, 01 Mar 2026 00:00:00 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>http://localhost:50385/posts/2026-03-01-news/</guid>
+    <guid>http://localhost:1313/posts/2026-03-01-news/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/2026/02/path504-3-w620.png" referrerpolicy="no-referrer">
             </div><p>Happy to officially welcome Harry and Daniela in the group as Master 2 student. They will respectively work on Ice nucleation and on Gold/Iron MLIP. Hopefully if everything goes well on both side, they will be able to also start their PhD with us in Autumn.</p>
@@ -61,50 +61,50 @@
 </item>
 <item>
     <title>February 1st, 2026</title>
-    <link>http://localhost:50385/posts/2026-02-01-news/</link>
+    <link>http://localhost:1313/posts/2026-02-01-news/</link>
     <pubDate>Sun, 01 Feb 2026 00:00:00 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>http://localhost:50385/posts/2026-02-01-news/</guid>
+    <guid>http://localhost:1313/posts/2026-02-01-news/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/2026/02/image-w626.png" referrerpolicy="no-referrer">
             </div><p>🚀 3-Year Postdoc: ML-Assisted Nanoparticle Simulations at UMET, University of Lille! 🔬 Dive into phase transitions of metallic alloys and oxides using machine-learning potentials and rare-event sampling. 📈 Benefit from direct PI mentorship and dedicated support for permanent researcher applications. 🌍 Thrive in Lille—a bike-friendly European hub just 1 hour from Paris, London, and Brussels. 📩 Apply now: Send your CV and cover letter to join our agile, high-impact team!</p>]]></description>
 </item>
 <item>
     <title>January 7th, 2026</title>
-    <link>http://localhost:50385/posts/2026-01-07-news/</link>
+    <link>http://localhost:1313/posts/2026-01-07-news/</link>
     <pubDate>Wed, 07 Jan 2026 00:00:00 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>http://localhost:50385/posts/2026-01-07-news/</guid>
+    <guid>http://localhost:1313/posts/2026-01-07-news/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/2026/01/graph2-w620.png" referrerpolicy="no-referrer">
             </div><p>Can a system as thoroughly studied as the Lennard-Jones gas still reveal intriguing phenomena? In a collaboration with the <a href="https://pmc.polytechnique.fr/?lang=fr" target="_blank" rel="noopener noreffer ">Laboratoire de Physique de la Matière Condensée</a> published in <a href="https://doi.org/10.1103/n3b1-tgjv" target="_blank" rel="noopener noreffer ">Phys Rev Letters</a>, we employed Molecular Dynamics (MD) simulations and rare-event sampling to investigate liquid nucleation from the vapor phase. Contrary to the predictions of Classical Nucleation Theory, our results demonstrate that critical clusters nucleate at a density significantly different from that of the macroscopic equilibrium liquid. We rationalize these numerical findings using a two-variable nucleation theory that is both accessible and highly effective.</p>]]></description>
 </item>
 <item>
     <title>October 24th, 2025</title>
-    <link>http://localhost:50385/posts/2025-10-24-news/</link>
+    <link>http://localhost:1313/posts/2025-10-24-news/</link>
     <pubDate>Fri, 24 Oct 2025 00:00:00 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>http://localhost:50385/posts/2025-10-24-news/</guid>
+    <guid>http://localhost:1313/posts/2025-10-24-news/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/2025/10/image-w1024.png" referrerpolicy="no-referrer">
             </div><p>Proud that <a href="https://www.researchgate.net/profile/Quentin-Gromoff" target="_blank" rel="noopener noreffer ">Quentin Gromoff</a> succesfully defended his thesis named: “Machine Learning Approaches to the Simulation of Nanoparticle Crystallization“. Massive thank you to his PhD committee including <a href="https://www.icmmo.universite-paris-saclay.fr/fr/perso/jerome-creuze/" target="_blank" rel="noopener noreffer ">Jérôme Creuze</a>, <a href="https://scholar.google.com/citations?user=YdTTu-wAAAAJ&amp;hl=fr" target="_blank" rel="noopener noreffer ">Christinne Mottet</a>, <a href="https://scholar.google.com/citations?user=0LJzefAAAAAJ&amp;hl=fr" target="_blank" rel="noopener noreffer ">Mathias Rapacioli</a> and <a href="https://emiliegaudry.perso.univ-lorraine.fr/" target="_blank" rel="noopener noreffer ">Emilie Gaudry</a>. Special thank as well to my partner in crime <a href="https://scholar.google.com/citations?user=WnI2gnAAAAAJ&amp;hl=fr" target="_blank" rel="noopener noreffer ">Magali Benoit</a> for the co-supervision.</p>]]></description>
 </item>
 <item>
     <title>September 26th, 2025</title>
-    <link>http://localhost:50385/posts/2025-09-26-news/</link>
+    <link>http://localhost:1313/posts/2025-09-26-news/</link>
     <pubDate>Fri, 26 Sep 2025 00:00:00 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>http://localhost:50385/posts/2025-09-26-news/</guid>
+    <guid>http://localhost:1313/posts/2025-09-26-news/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/2025/09/image-4-w1024.png" referrerpolicy="no-referrer">
             </div><p>Very excited to announce that our projet NanoPHIA is now funded by the <a href="https://www.pepr-diadem.fr/" target="_blank" rel="noopener noreffer ">PEPR Diadem</a>! We will receive 905k€ to work on the formation process in physical synthesis of nanoparticles by exploiting AI to couple characterisation, in-situ measurement and simulations. It will a collaboration with <a href="https://cemes.fr/" target="_blank" rel="noopener noreffer ">CEMES</a>, <a href="https://w3.insp.upmc.fr/en/insp-en/" target="_blank" rel="noopener noreffer ">INSP</a> and <a href="https://ilm.univ-lyon1.fr/" target="_blank" rel="noopener noreffer ">ILM</a> and 4 postdocs will be hired soon to do both simulations and experiments.</p>]]></description>
 </item>
 <item>
     <title>September 1st, 2025</title>
-    <link>http://localhost:50385/posts/2025-09-01-news/</link>
+    <link>http://localhost:1313/posts/2025-09-01-news/</link>
     <pubDate>Mon, 01 Sep 2025 00:00:00 &#43;0000</pubDate>
     <author>xxxx</author>
-    <guid>http://localhost:50385/posts/2025-09-01-news/</guid>
+    <guid>http://localhost:1313/posts/2025-09-01-news/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/2025/09/image-2-w612.png" referrerpolicy="no-referrer">
             </div><p>As every year, we are hiring summer internship students. If you are interested in working around machine-learning, atomistic simulations, nanoparticle or nucleation, please feel free to send me CV and cover letter. More info <a href="https://stages.phys.ens.psl.eu/OffresPDF/Offre-99049.pdf" target="_blank" rel="noopener noreffer ">here</a> and <a href="https://stages.phys.ens.psl.eu/OffresPDF/Offre-51786.pdf" target="_blank" rel="noopener noreffer ">here</a>.</p>]]></description>
