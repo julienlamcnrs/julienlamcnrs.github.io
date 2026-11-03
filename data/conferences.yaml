@@ -33,6 +33,10 @@
       place: "Cargèse, France"
       link: "https://ecole2026.sciencesconf.org/"
       invited: true
+    - event: "Réflexions sur l’IA en cristallographie du réseau ЯÉCIPROCS"
+      place: "Gif-Sur-Yvette, France"
+      link: "https://reciprocs.cnrs.fr/events/jt2026_ia"
+      invited: true
 
 
 - type: "oral"
