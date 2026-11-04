@@ -371,7 +371,7 @@ $invited:  #7c5cc4;
 .hero-chips {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 6px;
 
   span {
@@ -451,4 +451,50 @@ $invited:  #7c5cc4;
 .sel-authors, .sel-meta {
   font-size: 0.85rem;
   color: $muted;
+}
+
+// 10) Accueil : en-tête de profil sur la largeur (photo à gauche, texte à droite)
+.page.home .home-profile {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 1.75rem;
+  align-items: center;
+  padding: 0.5rem 0 0 !important;
+  text-align: left;
+  transform: none !important;
+
+  > .home-avatar {
+    grid-row: 1 / span 10;
+    padding: 0;
+  }
+  > :not(.home-avatar) {
+    grid-column: 2;
+    text-align: left;
+  }
+  .home-title {
+    padding: 0 0 0.2rem;
+    font-size: 1.5rem;
+  }
+  .home-subtitle {
+    padding: 0 0 0.4rem;
+  }
+  .home-disclaimer {
+    padding: 0.4rem 0 0;
+  }
+}
+.hero-tagline { margin: 0 0 0.5rem; }
+.home-section { margin-top: 1.25rem; }
+
+@media (max-width: 700px) {
+  .page.home .home-profile {
+    grid-template-columns: 1fr;
+    text-align: center;
+
+    > .home-avatar { grid-row: auto; }
+    > :not(.home-avatar) {
+      grid-column: 1;
+      text-align: center;
+    }
+  }
+  .hero-chips { justify-content: center; }
 }
