@@ -1,0 +1,8 @@
+{{- $b := hugo.Data.banner -}}
+{{- if and $b $b.enabled }}
+<a class="home-banner" href="{{ $b.link }}">
+  <strong>{{ $b.title }}</strong>
+  <span class="home-banner-text">{{ $b.text }}</span>
+  <span class="home-banner-cta">{{ $b.cta | default "Details" }} →</span>
+</a>
+{{- end }}

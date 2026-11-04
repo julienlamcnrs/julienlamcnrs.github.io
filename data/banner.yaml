@@ -1,0 +1,7 @@
+# Bandeau d'annonce en haut de l'accueil (ex. poste ouvert).
+# Pour l'afficher : enabled: true   ·   pour le retirer : enabled: false
+enabled: false
+title: "We're hiring:"
+text: "3-year postdoc, ML-assisted nanoparticle simulations at UMET."
+cta: "Details"
+link: "/posts/2026-02-01-news/"

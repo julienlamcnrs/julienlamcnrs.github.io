@@ -3,13 +3,13 @@
         <title>Julien Lam&#39;s homepage</title>
         <link>http://localhost:1313/</link>
         <description>Julien Lam, permanent CNRS researcher at UMET (Lille)</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 01 Oct 2026 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 30 Oct 2026 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Oct 1st, 2026</title>
     <link>http://localhost:1313/posts/2026-10-01-news/</link>
     <pubDate>Thu, 01 Oct 2026 00:00:00 &#43;0000</pubDate>
-    <author>xxxx</author>
+    <author>Julien Lam</author>
     <guid>http://localhost:1313/posts/2026-10-01-news/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/PhotosAfafGilberto.png" referrerpolicy="no-referrer">
@@ -19,7 +19,7 @@
     <title>May 26th, 2026</title>
     <link>http://localhost:1313/posts/2026-05-26-news/</link>
     <pubDate>Tue, 26 May 2026 00:00:00 &#43;0000</pubDate>
-    <author>xxxx</author>
+    <author>Julien Lam</author>
     <guid>http://localhost:1313/posts/2026-05-26-news/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/2026/05/screenshot-2026-05-26-at-11.04.32.png" referrerpolicy="no-referrer">
@@ -30,7 +30,7 @@
     <title>May 1st, 2026</title>
     <link>http://localhost:1313/posts/2026-05-01-news/</link>
     <pubDate>Fri, 01 May 2026 00:00:00 &#43;0000</pubDate>
-    <author>xxxx</author>
+    <author>Julien Lam</author>
     <guid>http://localhost:1313/posts/2026-05-01-news/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/2026/05/caro-1-w400.png" referrerpolicy="no-referrer">
@@ -40,7 +40,7 @@
     <title>April 15th, 2026</title>
     <link>http://localhost:1313/posts/2026-04-15-news/</link>
     <pubDate>Wed, 15 Apr 2026 00:00:00 &#43;0000</pubDate>
-    <author>xxxx</author>
+    <author>Julien Lam</author>
     <guid>http://localhost:1313/posts/2026-04-15-news/</guid>
     <description><![CDATA[<p>I recently had the pleasure of speaking at the <a href="https://ecole2026.sciencesconf.org/?lang=fr" target="_blank" rel="noopener noreffer ">summer school organized by the GDR Or-Nano</a> in the beautiful setting of the Institut d’Études Scientifiques in Cargèse.</p>
 <p>For those who were unable to make the trip to Corsica but are interested, my entire presentation was filmed. The video is now available on YouTube!</p>
@@ -52,7 +52,7 @@
     <title>March 1st, 2026</title>
     <link>http://localhost:1313/posts/2026-03-01-news/</link>
     <pubDate>Sun, 01 Mar 2026 00:00:00 &#43;0000</pubDate>
-    <author>xxxx</author>
+    <author>Julien Lam</author>
     <guid>http://localhost:1313/posts/2026-03-01-news/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/2026/02/path504-3-w620.png" referrerpolicy="no-referrer">
@@ -63,7 +63,7 @@
     <title>February 1st, 2026</title>
     <link>http://localhost:1313/posts/2026-02-01-news/</link>
     <pubDate>Sun, 01 Feb 2026 00:00:00 &#43;0000</pubDate>
-    <author>xxxx</author>
+    <author>Julien Lam</author>
     <guid>http://localhost:1313/posts/2026-02-01-news/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/2026/02/image-w626.png" referrerpolicy="no-referrer">
@@ -73,7 +73,7 @@
     <title>January 7th, 2026</title>
     <link>http://localhost:1313/posts/2026-01-07-news/</link>
     <pubDate>Wed, 07 Jan 2026 00:00:00 &#43;0000</pubDate>
-    <author>xxxx</author>
+    <author>Julien Lam</author>
     <guid>http://localhost:1313/posts/2026-01-07-news/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/2026/01/graph2-w620.png" referrerpolicy="no-referrer">
@@ -83,7 +83,7 @@
     <title>October 24th, 2025</title>
     <link>http://localhost:1313/posts/2025-10-24-news/</link>
     <pubDate>Fri, 24 Oct 2025 00:00:00 &#43;0000</pubDate>
-    <author>xxxx</author>
+    <author>Julien Lam</author>
     <guid>http://localhost:1313/posts/2025-10-24-news/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/2025/10/image-w1024.png" referrerpolicy="no-referrer">
@@ -93,7 +93,7 @@
     <title>September 26th, 2025</title>
     <link>http://localhost:1313/posts/2025-09-26-news/</link>
     <pubDate>Fri, 26 Sep 2025 00:00:00 &#43;0000</pubDate>
-    <author>xxxx</author>
+    <author>Julien Lam</author>
     <guid>http://localhost:1313/posts/2025-09-26-news/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/2025/09/image-4-w1024.png" referrerpolicy="no-referrer">
@@ -103,7 +103,7 @@
     <title>September 1st, 2025</title>
     <link>http://localhost:1313/posts/2025-09-01-news/</link>
     <pubDate>Mon, 01 Sep 2025 00:00:00 &#43;0000</pubDate>
-    <author>xxxx</author>
+    <author>Julien Lam</author>
     <guid>http://localhost:1313/posts/2025-09-01-news/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/2025/09/image-2-w612.png" referrerpolicy="no-referrer">

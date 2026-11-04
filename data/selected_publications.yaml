@@ -1,0 +1,22 @@
+# Publications mises en avant sur la page d'accueil (3 conseillées).
+# logo : fichier présent dans static/images/journals/
+- title: "Growth driven phase transitions in zinc oxide nanoparticles through machine-learning assisted simulations"
+  authors: ["Q. Gromoff", "M. Benoit", "J. Goniakowski", "C. R. Salazar", "J. Lam"]
+  journal: "Nanoscale"
+  year: 2026
+  url: "https://doi.org/10.1039/d5nr04147c"
+  logo: "nanoscale.png"
+
+- title: "Non-classical nucleation pathways in liquid condensation revealed by simulation and theory"
+  authors: ["Y. Wu", "T. Philippe", "A. Graini", "J. Lam"]
+  journal: "Phys. Rev. Lett."
+  year: 2026
+  url: "https://doi.org/10.1103/n3b1-tgjv"
+  logo: "prl.png"
+
+- title: "Competing nucleation pathways in nanocrystal formation"
+  authors: ["C. Salazar", "A. K. Ammothum Kandy", "J. Furstoss", "Q. Gromoff", "J. Goniakowski", "J. Lam"]
+  journal: "npj Computational Materials"
+  year: 2024
+  url: "https://doi.org/10.1038/s41524-024-01371-x"
+  logo: "npj-computational-materials.png"

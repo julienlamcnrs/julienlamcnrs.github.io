@@ -1,0 +1,27 @@
+{{- $items := hugo.Data.selected_publications | default slice -}}
+{{- if $items }}
+<section class="home-section">
+  <div class="home-section-head">
+    <span class="home-section-title">Selected publications</span>
+    <a class="home-section-more" href="/publications/">All publications →</a>
+  </div>
+  {{- range $items }}
+  {{- $journal := .journal }}
+  <div class="sel-pub">
+    {{- with .logo }}
+    <div class="sel-logo"><img src="/images/journals/{{ . }}" alt="{{ $journal }}" loading="lazy"></div>
+    {{- end }}
+    <div class="sel-text">
+      <div class="sel-title"><a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .title }}</a></div>
+      <div class="sel-authors">
+        {{- range $i, $a := .authors -}}
+          {{- if $i }}, {{ end -}}
+          {{- if or (eq $a "J. Lam") (eq $a "J Lam") }}<strong>J. Lam</strong>{{ else }}{{ $a }}{{ end -}}
+        {{- end -}}
+      </div>
+      <div class="sel-meta"><em>{{ .journal }}</em> · {{ .year }}</div>
+    </div>
+  </div>
+  {{- end }}
+</section>
+{{- end }}
